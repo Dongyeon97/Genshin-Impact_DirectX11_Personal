@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="99. Default">
+      <UniqueIdentifier>{30b222e0-3a29-48b3-ac93-b0b9055eaada}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98. Header">
+      <UniqueIdentifier>{ffab6bf3-a2f0-4664-87b2-cf13ef91d02a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Game">
+      <UniqueIdentifier>{cc441fcb-1d1c-4156-bb9e-0f8f17d1c248}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Levels">
+      <UniqueIdentifier>{83d99693-f6ac-49ce-a33f-ce8b911c857d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Levels\MapTool">
+      <UniqueIdentifier>{53459253-f9be-45fb-93de-b4faa76012b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05. Window">
+      <UniqueIdentifier>{323da4cf-4037-4bcf-b2d5-aa3bfadbfa4c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05. Window\01. Base">
+      <UniqueIdentifier>{df0a8db1-3bb8-4d5b-b1e6-c3ff90081cdf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05. Window\02. Inspector">
+      <UniqueIdentifier>{d4bc7e2f-c6ba-44f8-9e1e-dc7d10c0479f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Manager">
+      <UniqueIdentifier>{39430fb8-f24d-46c2-88ef-61455373728f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. GameObjects">
+      <UniqueIdentifier>{2a3e80d1-cc37-45b9-a1ad-42e332552e20}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. GameObjects\Terrain">
+      <UniqueIdentifier>{70c7cf91-4b40-4772-bd84-afd77b793724}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05. Window\03. SelectedActor">
+      <UniqueIdentifier>{a40cca9a-3385-4c30-93da-6a87911a67ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. GameObjects\Test_ObjecT_1">
+      <UniqueIdentifier>{1a1c630d-95f2-43b0-987c-3e34a216a1c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Manager\01. ImguiManager">
+      <UniqueIdentifier>{06645d8f-b816-40e4-8315-d437705e2546}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Manager\02. AssimpManager">
+      <UniqueIdentifier>{47a14400-17b1-4a0d-bb39-d2d9cff7ed4c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. GameObjects\FreeCam">
+      <UniqueIdentifier>{fbbf449f-072b-4f3c-8905-90d302a35b03}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Resource.h">
+      <Filter>99. Default</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>99. Default</Filter>
+    </ClInclude>
+    <ClInclude Include="Tool.h">
+      <Filter>99. Default</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>98. Header</Filter>
+    </ClInclude>
+    <ClInclude Include="framework.h">
+      <Filter>99. Default</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\MainApp.h">
+      <Filter>01. Game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Level_Editor.h">
+      <Filter>02. Levels\MapTool</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Window.h">
+      <Filter>05. Window\01. Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Inspector.h">
+      <Filter>05. Window\02. Inspector</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Editor_Navi.h">
+      <Filter>03. GameObjects\Terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\SelectedActorWindow.h">
+      <Filter>05. Window\03. SelectedActor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Test_Object_1.h">
+      <Filter>03. GameObjects\Test_ObjecT_1</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\ImguiManager.h">
+      <Filter>04. Manager\01. ImguiManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\AssimpManager.h">
+      <Filter>04. Manager\02. AssimpManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\FreeCam.h">
+      <Filter>03. GameObjects\FreeCam</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>99. Default</Filter>
+    </Image>
+    <Image Include="Tool.ico">
+      <Filter>99. Default</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Tool.rc">
+      <Filter>99. Default</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Tool.cpp">
+      <Filter>99. Default</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>98. Header</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\MainApp.cpp">
+      <Filter>01. Game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Level_Editor.cpp">
+      <Filter>02. Levels\MapTool</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Window.cpp">
+      <Filter>05. Window\01. Base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Inspector.cpp">
+      <Filter>05. Window\02. Inspector</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Editor_Navi.cpp">
+      <Filter>03. GameObjects\Terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\SelectedActorWindow.cpp">
+      <Filter>05. Window\03. SelectedActor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Test_Object_1.cpp">
+      <Filter>03. GameObjects\Test_ObjecT_1</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\ImguiManager.cpp">
+      <Filter>04. Manager\01. ImguiManager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\AssimpManager.cpp">
+      <Filter>04. Manager\02. AssimpManager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\FreeCam.cpp">
+      <Filter>03. GameObjects\FreeCam</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

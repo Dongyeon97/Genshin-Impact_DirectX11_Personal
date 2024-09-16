@@ -1,0 +1,162 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project>
+  <ProjectOutputs>
+    <ProjectOutput>
+      <FullPath>C:\Users\kids1\Desktop\쥬신\05. MyFramework_0214_Backup\3D_Portfolio_02.14_Backup\Client\Bin\Client.exe</FullPath>
+    </ProjectOutput>
+  </ProjectOutputs>
+  <ContentFiles>
+    <ContentFile>
+      <FullPath>C:\Users\kids1\Desktop\쥬신\05. MyFramework_0214_Backup\3D_Portfolio_02.14_Backup\Client\Bin\Shader_Ambor_NormalAttack1.cso</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>C:\Users\kids1\Desktop\쥬신\05. MyFramework_0214_Backup\3D_Portfolio_02.14_Backup\Client\Bin\Shader_Andrius_Attack_One.cso</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>C:\Users\kids1\Desktop\쥬신\05. MyFramework_0214_Backup\3D_Portfolio_02.14_Backup\Client\Bin\Shader_Andrius_Attack_One_Particle.cso</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>C:\Users\kids1\Desktop\쥬신\05. MyFramework_0214_Backup\3D_Portfolio_02.14_Backup\Client\Bin\Shader_Andrius_Attack_Three_Aura.cso</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>C:\Users\kids1\Desktop\쥬신\05. MyFramework_0214_Backup\3D_Portfolio_02.14_Backup\Client\Bin\Shader_Andrius_Attack_Three_Debris.cso</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>C:\Users\kids1\Desktop\쥬신\05. MyFramework_0214_Backup\3D_Portfolio_02.14_Backup\Client\Bin\Shader_Andrius_Attack_Three_IceField.cso</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>C:\Users\kids1\Desktop\쥬신\05. MyFramework_0214_Backup\3D_Portfolio_02.14_Backup\Client\Bin\Shader_Andrius_Attack_Turn.cso</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>C:\Users\kids1\Desktop\쥬신\05. MyFramework_0214_Backup\3D_Portfolio_02.14_Backup\Client\Bin\Shader_Andrius_PaizeChange.cso</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>C:\Users\kids1\Desktop\쥬신\05. MyFramework_0214_Backup\3D_Portfolio_02.14_Backup\Client\Bin\Shader_Andrius_PaizeChange_Thunder.cso</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>C:\Users\kids1\Desktop\쥬신\05. MyFramework_0214_Backup\3D_Portfolio_02.14_Backup\Client\Bin\Shader_Andrius_Pattern_Two_WindBlade.cso</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>C:\Users\kids1\Desktop\쥬신\05. MyFramework_0214_Backup\3D_Portfolio_02.14_Backup\Client\Bin\Shader_Cell.cso</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>C:\Users\kids1\Desktop\쥬신\05. MyFramework_0214_Backup\3D_Portfolio_02.14_Backup\Client\Bin\Shader_Deferred.cso</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>C:\Users\kids1\Desktop\쥬신\05. MyFramework_0214_Backup\3D_Portfolio_02.14_Backup\Client\Bin\Shader_Eula_NormalAttack1.cso</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>C:\Users\kids1\Desktop\쥬신\05. MyFramework_0214_Backup\3D_Portfolio_02.14_Backup\Client\Bin\Shader_Eula_NormalAttack5.cso</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>C:\Users\kids1\Desktop\쥬신\05. MyFramework_0214_Backup\3D_Portfolio_02.14_Backup\Client\Bin\Shader_Eula_Skill_E.cso</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>C:\Users\kids1\Desktop\쥬신\05. MyFramework_0214_Backup\3D_Portfolio_02.14_Backup\Client\Bin\Shader_Eula_Skill_E_Particle.cso</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>C:\Users\kids1\Desktop\쥬신\05. MyFramework_0214_Backup\3D_Portfolio_02.14_Backup\Client\Bin\Shader_Eula_Skill_Q.cso</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>C:\Users\kids1\Desktop\쥬신\05. MyFramework_0214_Backup\3D_Portfolio_02.14_Backup\Client\Bin\Shader_MonsterKey.cso</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>C:\Users\kids1\Desktop\쥬신\05. MyFramework_0214_Backup\3D_Portfolio_02.14_Backup\Client\Bin\Shader_Nahida_NormalAttack_Floor.cso</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>C:\Users\kids1\Desktop\쥬신\05. MyFramework_0214_Backup\3D_Portfolio_02.14_Backup\Client\Bin\Shader_Nahida_NormalAttack_Flower.cso</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>C:\Users\kids1\Desktop\쥬신\05. MyFramework_0214_Backup\3D_Portfolio_02.14_Backup\Client\Bin\Shader_Nahida_NormalAttack_Particle.cso</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>C:\Users\kids1\Desktop\쥬신\05. MyFramework_0214_Backup\3D_Portfolio_02.14_Backup\Client\Bin\Shader_Nahida_Skill_E_Frame.cso</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>C:\Users\kids1\Desktop\쥬신\05. MyFramework_0214_Backup\3D_Portfolio_02.14_Backup\Client\Bin\Shader_Nahida_Skill_E_RotateCard.cso</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>C:\Users\kids1\Desktop\쥬신\05. MyFramework_0214_Backup\3D_Portfolio_02.14_Backup\Client\Bin\Shader_Nahida_Skill_Q.cso</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>C:\Users\kids1\Desktop\쥬신\05. MyFramework_0214_Backup\3D_Portfolio_02.14_Backup\Client\Bin\Shader_Sprite.cso</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>C:\Users\kids1\Desktop\쥬신\05. MyFramework_0214_Backup\3D_Portfolio_02.14_Backup\Client\Bin\Shader_Sprite_AlphaDecrease.cso</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>C:\Users\kids1\Desktop\쥬신\05. MyFramework_0214_Backup\3D_Portfolio_02.14_Backup\Client\Bin\Shader_Sprite_BlackCut.cso</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>C:\Users\kids1\Desktop\쥬신\05. MyFramework_0214_Backup\3D_Portfolio_02.14_Backup\Client\Bin\Shader_Sprite_ZeroAlphaCut.cso</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>C:\Users\kids1\Desktop\쥬신\05. MyFramework_0214_Backup\3D_Portfolio_02.14_Backup\Client\Bin\Shader_UIBase.cso</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>C:\Users\kids1\Desktop\쥬신\05. MyFramework_0214_Backup\3D_Portfolio_02.14_Backup\Client\Bin\Shader_UI_BossHPbar.cso</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>C:\Users\kids1\Desktop\쥬신\05. MyFramework_0214_Backup\3D_Portfolio_02.14_Backup\Client\Bin\Shader_UI_BossHPbar_Frame.cso</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>C:\Users\kids1\Desktop\쥬신\05. MyFramework_0214_Backup\3D_Portfolio_02.14_Backup\Client\Bin\Shader_UI_HPbar.cso</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>C:\Users\kids1\Desktop\쥬신\05. MyFramework_0214_Backup\3D_Portfolio_02.14_Backup\Client\Bin\Shader_UI_HPbar_Frame.cso</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>C:\Users\kids1\Desktop\쥬신\05. MyFramework_0214_Backup\3D_Portfolio_02.14_Backup\Client\Bin\Shader_UI_MonsterHPbar.cso</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>C:\Users\kids1\Desktop\쥬신\05. MyFramework_0214_Backup\3D_Portfolio_02.14_Backup\Client\Bin\Shader_UI_MonsterHPbar_Frame.cso</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>C:\Users\kids1\Desktop\쥬신\05. MyFramework_0214_Backup\3D_Portfolio_02.14_Backup\Client\Bin\Shader_UI_PortraitFrame.cso</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>C:\Users\kids1\Desktop\쥬신\05. MyFramework_0214_Backup\3D_Portfolio_02.14_Backup\Client\Bin\Shader_UI_SkillIcon.cso</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>C:\Users\kids1\Desktop\쥬신\05. MyFramework_0214_Backup\3D_Portfolio_02.14_Backup\Client\Bin\Shader_UI_SkillIconFrame.cso</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>C:\Users\kids1\Desktop\쥬신\05. MyFramework_0214_Backup\3D_Portfolio_02.14_Backup\Client\Bin\Shader_VtxAnimMesh.cso</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>C:\Users\kids1\Desktop\쥬신\05. MyFramework_0214_Backup\3D_Portfolio_02.14_Backup\Client\Bin\Shader_VtxCube.cso</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>C:\Users\kids1\Desktop\쥬신\05. MyFramework_0214_Backup\3D_Portfolio_02.14_Backup\Client\Bin\Shader_VtxEffectMesh.cso</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>C:\Users\kids1\Desktop\쥬신\05. MyFramework_0214_Backup\3D_Portfolio_02.14_Backup\Client\Bin\Shader_VtxMesh.cso</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>C:\Users\kids1\Desktop\쥬신\05. MyFramework_0214_Backup\3D_Portfolio_02.14_Backup\Client\Bin\Shader_VtxNorTex.cso</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>C:\Users\kids1\Desktop\쥬신\05. MyFramework_0214_Backup\3D_Portfolio_02.14_Backup\Client\Bin\Shader_VtxPointInstance.cso</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>C:\Users\kids1\Desktop\쥬신\05. MyFramework_0214_Backup\3D_Portfolio_02.14_Backup\Client\Bin\Shader_VtxPointInstance_NoTime.cso</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>C:\Users\kids1\Desktop\쥬신\05. MyFramework_0214_Backup\3D_Portfolio_02.14_Backup\Client\Bin\Shader_VtxPosTex.cso</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>C:\Users\kids1\Desktop\쥬신\05. MyFramework_0214_Backup\3D_Portfolio_02.14_Backup\Client\Bin\Shader_VtxRectInstance.cso</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>C:\Users\kids1\Desktop\쥬신\05. MyFramework_0214_Backup\3D_Portfolio_02.14_Backup\Client\Bin\Shader_Zhongli_Jusin.cso</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>C:\Users\kids1\Desktop\쥬신\05. MyFramework_0214_Backup\3D_Portfolio_02.14_Backup\Client\Bin\Shader_Zhongli_Shield.cso</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>C:\Users\kids1\Desktop\쥬신\05. MyFramework_0214_Backup\3D_Portfolio_02.14_Backup\Client\Bin\Shader_Zhongli_Shield_Cylinder.cso</FullPath>
+    </ContentFile>
+  </ContentFiles>
+  <SatelliteDlls />
+  <NonRecipeFileRefs />
+</Project>

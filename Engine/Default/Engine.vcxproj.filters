@@ -1,0 +1,777 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="99. Default">
+      <UniqueIdentifier>{ccadbc3d-4897-4b7d-9eb9-931cb6f7163a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Manager">
+      <UniqueIdentifier>{327813de-d082-44ae-acd2-ec7d13756e09}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Engine">
+      <UniqueIdentifier>{a5198d00-f7f6-4fe9-8c6d-312a166d73d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Manager\02. LevelManager">
+      <UniqueIdentifier>{fa49c273-fccb-4a35-aaad-71408966b5aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Engine\01. Level">
+      <UniqueIdentifier>{77c4d63f-4d76-4202-9d18-13a3106b43bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Engine\02. Layer">
+      <UniqueIdentifier>{f09ee45d-3b23-4e55-bc9d-f0a0eb862260}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Engine\03. Object">
+      <UniqueIdentifier>{d6520ef7-ab9d-49f4-88c2-582a77a280a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Engine\03. Object\01. Base">
+      <UniqueIdentifier>{763aa9f3-f250-4b24-a04a-ab2541606dc4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Engine\03. Object\02. Actor">
+      <UniqueIdentifier>{cd05235c-c794-41cd-a075-788180dfd702}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Engine\03. Object\02. Actor\01. Base">
+      <UniqueIdentifier>{4dac84ea-461a-4ff3-995f-642a712e14be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00. System">
+      <UniqueIdentifier>{f0e22491-f54e-4e19-b4e0-bb2ab7b283c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00. System\01. DeviceManager">
+      <UniqueIdentifier>{cfd15a19-f643-43de-903b-e8007b97ef7c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00. System\02. TimerManager">
+      <UniqueIdentifier>{84b2130a-6d2b-4fe7-9d6b-01f62acecda5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00. System\02. TimerManager\Timer">
+      <UniqueIdentifier>{692dde51-d1af-4b69-8f29-def70eda94b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Manager\01. RenderManager">
+      <UniqueIdentifier>{4cb9378b-92ac-400a-be18-285e1d2fb30a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Manager\03. ObjectManager">
+      <UniqueIdentifier>{256f6f89-60f1-4138-b4df-d4b6faf3a40a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Engine\03. Object\03. ActorComponent">
+      <UniqueIdentifier>{459017bd-8e07-4479-90a7-e7ab7b26e0d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Engine\03. Object\03. ActorComponent\01. Base">
+      <UniqueIdentifier>{77fd2b38-197d-4f1e-a23b-a20f2bb0040c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Engine\03. Object\03. ActorComponent\02. SceneComponent">
+      <UniqueIdentifier>{58e37e8e-c925-44ad-87ea-e1668cfd77b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Engine\03. Object\03. ActorComponent\02. SceneComponent\01. Base">
+      <UniqueIdentifier>{104dd75e-d2ad-4e40-b60f-09e173f280d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Engine\03. Object\03. ActorComponent\02. SceneComponent\02. PrimitiveComponent">
+      <UniqueIdentifier>{e6d8df7a-072d-4796-bbc5-34965fb48f76}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Engine\03. Object\03. ActorComponent\02. SceneComponent\02. PrimitiveComponent\01. Base">
+      <UniqueIdentifier>{2c2ea90f-0541-4677-b4dd-9d34d423b5e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Manager\04. ResourceManager">
+      <UniqueIdentifier>{2038e52b-976e-43c6-b2bf-fa0ad7d73543}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98. Header">
+      <UniqueIdentifier>{c424454d-bdea-4fd1-a6db-e6c7a28d9e54}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Engine\03. Object\03. ActorComponent\02. SceneComponent\03. Camera">
+      <UniqueIdentifier>{9feb87e1-a8dc-4255-896b-ac923a44c751}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Manager\05. CameraManager">
+      <UniqueIdentifier>{f0333b6c-d578-4d0f-a861-9e8b7237652a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00. System\03. InputManager">
+      <UniqueIdentifier>{7c3078c5-a772-4d82-9184-e659f9cf23af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Manager\06. CollisionManager">
+      <UniqueIdentifier>{02fa3284-1cb2-46b4-8ecf-e5ca8ba46004}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Manager\07. LightManager">
+      <UniqueIdentifier>{1234537c-7fda-457a-8e81-56c1d676dcfc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Manager\07. LightManager\Light">
+      <UniqueIdentifier>{62813cb2-81d4-4490-8d78-ad3e1342f7b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Engine\03. Object\03. ActorComponent\02. SceneComponent\02. PrimitiveComponent\02. NonMesh">
+      <UniqueIdentifier>{5959ea9f-e3da-4a6b-aaec-7bc322ba2728}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Engine\03. Object\03. ActorComponent\02. SceneComponent\02. PrimitiveComponent\02. NonMesh\02. Rect">
+      <UniqueIdentifier>{59e1b0cd-d19a-48ab-a3a0-575b79013dc8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Engine\03. Object\03. ActorComponent\02. SceneComponent\02. PrimitiveComponent\02. NonMesh\03. Cube">
+      <UniqueIdentifier>{cb97bce4-6069-4447-aa48-1d10aa4563ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Engine\03. Object\03. ActorComponent\02. SceneComponent\02. PrimitiveComponent\02. NonMesh\04. Terrain">
+      <UniqueIdentifier>{e0285545-6380-4db2-b4c8-28f41784e2c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Engine\03. Object\03. ActorComponent\02. SceneComponent\02. PrimitiveComponent\02. NonMesh\01. Base">
+      <UniqueIdentifier>{4c70d981-93e5-4f97-abaf-1b9d80b587c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Engine\03. Object\03. ActorComponent\02. SceneComponent\02. PrimitiveComponent\03. Model">
+      <UniqueIdentifier>{624e9e73-d38a-49ca-9edb-32e6da01fc8c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Engine\03. Object\03. ActorComponent\02. SceneComponent\02. PrimitiveComponent\03. Model\01. Base">
+      <UniqueIdentifier>{2d0daf8d-c41a-4eb1-9802-b6271f21834a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Engine\03. Object\03. ActorComponent\02. SceneComponent\02. PrimitiveComponent\03. Model\02. NonAnim">
+      <UniqueIdentifier>{09ad776a-d418-4f07-ac65-8054bff46452}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Engine\03. Object\03. ActorComponent\02. SceneComponent\02. PrimitiveComponent\03. Model\03. Anim">
+      <UniqueIdentifier>{f9e21db8-abe6-4778-8218-9fb8d7413d05}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Manager\08. PrefabManager">
+      <UniqueIdentifier>{edd137b0-eefa-4e99-bd9c-0d79813f4250}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Manager\09. SpawnManager">
+      <UniqueIdentifier>{8326ad55-70ea-4b5a-817b-da8bb2720d69}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Engine\03. Object\02. Actor\02. NonMeshActor">
+      <UniqueIdentifier>{edb41f0c-9461-40f8-92dc-1e72cb8ef5c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Engine\03. Object\02. Actor\03. MeshActor">
+      <UniqueIdentifier>{d87e0430-7411-4c09-87f5-678597e4956f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Engine\03. Object\02. Actor\03. MeshActor\02. NonAnimActor">
+      <UniqueIdentifier>{45639052-47a6-4150-bd38-a441a3ca77dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Engine\03. Object\02. Actor\03. MeshActor\03. AnimActor">
+      <UniqueIdentifier>{9a0714a8-64bb-4530-8784-63861e1d5156}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Engine\03. Object\02. Actor\03. MeshActor\01. Base">
+      <UniqueIdentifier>{bdc2e17f-8e54-460e-b9b2-1808fa4d96eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Engine\03. Object\03. ActorComponent\02. SceneComponent\02. PrimitiveComponent\02. NonMesh\05. Cell">
+      <UniqueIdentifier>{52cfaa12-319f-46f6-a319-8f2d87aacb59}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Engine\03. Object\03. ActorComponent\02. SceneComponent\03. Camera\01. Base">
+      <UniqueIdentifier>{4667c51c-9372-4768-9295-12204999669c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Engine\03. Object\03. ActorComponent\02. SceneComponent\03. Camera\02. ThirdPerson">
+      <UniqueIdentifier>{2939d970-7f1c-42dd-9339-0468ccfce65f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Engine\03. Object\03. ActorComponent\03. StateMachine">
+      <UniqueIdentifier>{f0460e3e-6aeb-4158-a25d-7d9d677427c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Engine\03. Object\03. ActorComponent\02. SceneComponent\02. PrimitiveComponent\04. Collider">
+      <UniqueIdentifier>{9159404f-3e9b-466c-9dfe-cf16beea3a71}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Engine\03. Object\02. Actor\03. MeshActor\03. AnimActor\01. Base">
+      <UniqueIdentifier>{e47e5542-eeab-4f18-bdfb-60c024a51c99}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Engine\03. Object\02. Actor\03. MeshActor\03. AnimActor\02. Charactor">
+      <UniqueIdentifier>{d5970dea-b97a-47b2-9f00-58c329039b82}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Engine\03. Object\03. ActorComponent\02. SceneComponent\02. PrimitiveComponent\04. Collider\01. Base">
+      <UniqueIdentifier>{f7329250-d5e2-476b-b3d7-0678b5146f3a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Engine\03. Object\03. ActorComponent\02. SceneComponent\02. PrimitiveComponent\04. Collider\01. Base\DebugDraw">
+      <UniqueIdentifier>{b7b4924d-7958-401a-a474-f6e894d6964f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Engine\03. Object\03. ActorComponent\02. SceneComponent\02. PrimitiveComponent\04. Collider\02. AttackCollider">
+      <UniqueIdentifier>{60e3e1fd-ba4a-4575-a8d1-e71798c212b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Manager\10. FontManager">
+      <UniqueIdentifier>{3e6dad56-90f7-4aa2-9765-fafc83ccccea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Manager\11. NavigationManager">
+      <UniqueIdentifier>{320d3b59-7a14-4a19-ad8e-7f61ee3614d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Engine\03. Object\03. ActorComponent\02. SceneComponent\02. PrimitiveComponent\02. NonMesh\06. Instancing">
+      <UniqueIdentifier>{ea02904a-5579-4f06-a7e8-6006f1f8d93c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Engine\03. Object\03. ActorComponent\02. SceneComponent\02. PrimitiveComponent\02. NonMesh\06. Instancing\01. Base">
+      <UniqueIdentifier>{9e4b2ad8-bad9-4630-94ad-e286eaabd6e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Engine\03. Object\03. ActorComponent\02. SceneComponent\02. PrimitiveComponent\02. NonMesh\06. Instancing\02. Paricle_Rect">
+      <UniqueIdentifier>{cd32d77d-b959-4a29-a0a3-e32622cc39cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Engine\03. Object\03. ActorComponent\02. SceneComponent\02. PrimitiveComponent\03. Model\02. NonAnim\01. Base">
+      <UniqueIdentifier>{0b99f565-446e-4f60-9b82-bb3d2c485679}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Engine\03. Object\03. ActorComponent\02. SceneComponent\02. PrimitiveComponent\03. Model\02. NonAnim\02. Projectile">
+      <UniqueIdentifier>{d5a5e662-9db3-45a4-a51b-8a95a84349c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Engine\03. Object\02. Actor\03. MeshActor\02. NonAnimActor\01. Base">
+      <UniqueIdentifier>{e04e513b-9014-4e9c-9347-93224f1f6876}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Engine\03. Object\02. Actor\03. MeshActor\02. NonAnimActor\02. ProjectileActor">
+      <UniqueIdentifier>{a53517bd-3cde-4ccd-836a-06a522cfe687}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Manager\12. RenderTargetManager">
+      <UniqueIdentifier>{3e17ef9b-7e9c-4712-ab78-0079f35182d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Engine\03. Object\03. ActorComponent\02. SceneComponent\02. PrimitiveComponent\05. Rect_RenderTarget">
+      <UniqueIdentifier>{22eac0e9-6920-47b0-bb34-369dd767c105}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Engine\03. Object\03. ActorComponent\02. SceneComponent\02. PrimitiveComponent\03. Model\03. Anim\01. Base">
+      <UniqueIdentifier>{857f2187-cb83-4171-bee2-6b3e0df4bde5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Engine\03. Object\03. ActorComponent\02. SceneComponent\02. PrimitiveComponent\02. NonMesh\06. Instancing\03. Particle_Point">
+      <UniqueIdentifier>{4f61a7da-6349-4bc7-8a79-011c7dc61de8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Engine\03. Object\02. Actor\02. NonMeshActor\01. ParticleActor">
+      <UniqueIdentifier>{5faf24d6-0dc6-4d5d-bb08-970c225eb024}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Engine\03. Object\03. ActorComponent\02. SceneComponent\02. PrimitiveComponent\03. Model\04. EffectMesh">
+      <UniqueIdentifier>{bc655099-734d-4f0e-ae8c-a3e4e2c2674f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Engine\03. Object\02. Actor\03. MeshActor\04. EffectMeshActor">
+      <UniqueIdentifier>{2151acb0-9cdb-4544-8f1d-07827f511e1c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97. Module">
+      <UniqueIdentifier>{476fc4d7-3351-4fea-83d8-a84b78d3a96f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97. Module\01. Texture">
+      <UniqueIdentifier>{0ade9be5-ace5-459d-b1c9-433700656881}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97. Module\02. Mesh">
+      <UniqueIdentifier>{0b6de6ab-77b7-4998-9512-fea96277ae03}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97. Module\03. Bone">
+      <UniqueIdentifier>{063681bc-4a25-4c17-a3d0-ba5e081c7989}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97. Module\04. Animation">
+      <UniqueIdentifier>{3ee72448-277c-4872-a850-ac0927428193}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97. Module\05. Channel">
+      <UniqueIdentifier>{1637687d-b561-415d-b1a9-adef93d568bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97. Module\06. Navigation">
+      <UniqueIdentifier>{de42d867-4518-4e34-9213-01df0c914fbe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97. Module\07. Bounding">
+      <UniqueIdentifier>{d60b8e70-91a0-4348-932a-875522b6d50d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97. Module\07. Bounding\01. Base">
+      <UniqueIdentifier>{cc493384-9112-4740-8aed-8c24ba59c163}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97. Module\07. Bounding\02. Sphere">
+      <UniqueIdentifier>{cbf469cb-7d26-4bc5-920a-caca7eb1c42a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97. Module\07. Bounding\03. AABB">
+      <UniqueIdentifier>{a6235b36-df03-4649-8331-8be035a1139b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97. Module\07. Bounding\04. OBB">
+      <UniqueIdentifier>{d02d8706-af5a-4b59-8782-754b72021cba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97. Module\08. Font">
+      <UniqueIdentifier>{ef196389-3ea4-4ceb-b3c6-81eadfdd8e6e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97. Module\09. RenderTarget">
+      <UniqueIdentifier>{fe1909b9-2830-4ccd-a9ed-2adb62a57100}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Engine\03. Object\03. ActorComponent\02. SceneComponent\03. Camera\02. ThirdPerson\01. Base">
+      <UniqueIdentifier>{9c249ae6-4430-4e24-b9db-6f197cad49f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Engine\03. Object\03. ActorComponent\02. SceneComponent\03. Camera\03. ProductionCamera">
+      <UniqueIdentifier>{8b521160-76ad-4393-ab10-82778c88532e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Engine\03. Object\03. ActorComponent\02. SceneComponent\02. PrimitiveComponent\02. NonMesh\07. UI">
+      <UniqueIdentifier>{2294b1c1-ce94-41c4-b0ce-9451cb614af6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Engine\03. Object\02. Actor\03. MeshActor\04. EffectMeshActor\01. Base">
+      <UniqueIdentifier>{144593b6-5340-42b1-bd9e-d5862098eaab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Engine\03. Object\02. Actor\03. MeshActor\04. EffectMeshActor\02. Debris">
+      <UniqueIdentifier>{75707de9-d44d-4a16-9f5e-1efe3347e8a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Engine\03. Object\02. Actor\02. NonMeshActor\02. SpriteActor">
+      <UniqueIdentifier>{80b979ae-7375-4d70-b606-24351b23e283}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Engine\03. Object\02. Actor\03. MeshActor\04. EffectMeshActor\04. MonsterAttackEffect">
+      <UniqueIdentifier>{438b3d9b-1a84-4afe-8d0d-d38f8d153f6b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Engine\03. Object\02. Actor\03. MeshActor\04. EffectMeshActor\04. MonsterAttackEffect\01. Base">
+      <UniqueIdentifier>{18f87550-7b36-46ce-93ff-056176c04f17}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Engine\03. Object\02. Actor\03. MeshActor\04. EffectMeshActor\04. MonsterAttackEffect\02. ProjectileEffect">
+      <UniqueIdentifier>{604c89ef-7778-4c6e-a397-175157741a40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Engine\03. Object\02. Actor\03. MeshActor\04. EffectMeshActor\03. PlayerAttackEffect">
+      <UniqueIdentifier>{ec657470-fd52-49fc-892c-798a508b8a5d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Engine\03. Object\02. Actor\03. MeshActor\04. EffectMeshActor\03. PlayerAttackEffect\01. Base">
+      <UniqueIdentifier>{5c2d4148-cf30-41fc-90a5-1596ea276b23}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Engine\03. Object\02. Actor\03. MeshActor\04. EffectMeshActor\03. PlayerAttackEffect\02. ProjectileEffect">
+      <UniqueIdentifier>{715cf32f-efb0-41db-903e-55ca253d92a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Manager\13. SoundManager">
+      <UniqueIdentifier>{b28be5a1-0428-46b8-a350-2761991dfc48}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Manager\14. ThreadManager">
+      <UniqueIdentifier>{d60d75b3-767a-43d4-b92a-36197fd89b49}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="framework.h">
+      <Filter>99. Default</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Engine_Function.h">
+      <Filter>98. Header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Engine_Macro.h">
+      <Filter>98. Header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Engine_Struct.h">
+      <Filter>98. Header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Engine_Typedef.h">
+      <Filter>98. Header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Level.h">
+      <Filter>02. Engine\01. Level</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Object.h">
+      <Filter>02. Engine\03. Object\01. Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine_pch.h">
+      <Filter>99. Default</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\LevelManager.h">
+      <Filter>01. Manager\02. LevelManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Layer.h">
+      <Filter>02. Engine\02. Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\RenderManager.h">
+      <Filter>01. Manager\01. RenderManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Engine_Enum.h">
+      <Filter>98. Header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\TimerManager.h">
+      <Filter>00. System\02. TimerManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Timer.h">
+      <Filter>00. System\02. TimerManager\Timer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\ActorComponent.h">
+      <Filter>02. Engine\03. Object\03. ActorComponent\01. Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Actor.h">
+      <Filter>02. Engine\03. Object\02. Actor\01. Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\ObjectManager.h">
+      <Filter>01. Manager\03. ObjectManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\SceneComponent.h">
+      <Filter>02. Engine\03. Object\03. ActorComponent\02. SceneComponent\01. Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\PrimitiveComponent.h">
+      <Filter>02. Engine\03. Object\03. ActorComponent\02. SceneComponent\02. PrimitiveComponent\01. Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\VIBuffer_Rect.h">
+      <Filter>02. Engine\03. Object\03. ActorComponent\02. SceneComponent\02. PrimitiveComponent\02. NonMesh\02. Rect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\DeviceManager.h">
+      <Filter>00. System\01. DeviceManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\ResourceManager.h">
+      <Filter>01. Manager\04. ResourceManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\VIBuffer_Terrain.h">
+      <Filter>02. Engine\03. Object\03. ActorComponent\02. SceneComponent\02. PrimitiveComponent\02. NonMesh\04. Terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CameraManager.h">
+      <Filter>01. Manager\05. CameraManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\InputManager.h">
+      <Filter>00. System\03. InputManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CollisionManager.h">
+      <Filter>01. Manager\06. CollisionManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\LightManager.h">
+      <Filter>01. Manager\07. LightManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Light.h">
+      <Filter>01. Manager\07. LightManager\Light</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\ModelComponent.h">
+      <Filter>02. Engine\03. Object\03. ActorComponent\02. SceneComponent\02. PrimitiveComponent\03. Model\01. Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\NonMeshComponent.h">
+      <Filter>02. Engine\03. Object\03. ActorComponent\02. SceneComponent\02. PrimitiveComponent\02. NonMesh\01. Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Mesh.h">
+      <Filter>97. Module\02. Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Texture.h">
+      <Filter>97. Module\01. Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\PrefabManager.h">
+      <Filter>01. Manager\08. PrefabManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\SpawnManager.h">
+      <Filter>01. Manager\09. SpawnManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Bone.h">
+      <Filter>97. Module\03. Bone</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\MeshActor.h">
+      <Filter>02. Engine\03. Object\02. Actor\03. MeshActor\01. Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Animation.h">
+      <Filter>97. Module\04. Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Channel.h">
+      <Filter>97. Module\05. Channel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Navigation.h">
+      <Filter>97. Module\06. Navigation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Cell.h">
+      <Filter>02. Engine\03. Object\03. ActorComponent\02. SceneComponent\02. PrimitiveComponent\02. NonMesh\05. Cell</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CameraComponent.h">
+      <Filter>02. Engine\03. Object\03. ActorComponent\02. SceneComponent\03. Camera\01. Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\StateMachine.h">
+      <Filter>02. Engine\03. Object\03. ActorComponent\03. StateMachine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\DebugDraw.h">
+      <Filter>02. Engine\03. Object\03. ActorComponent\02. SceneComponent\02. PrimitiveComponent\04. Collider\01. Base\DebugDraw</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Bounding.h">
+      <Filter>97. Module\07. Bounding\01. Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Bounding_Sphere.h">
+      <Filter>97. Module\07. Bounding\02. Sphere</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Bounding_AABB.h">
+      <Filter>97. Module\07. Bounding\03. AABB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Bounding_OBB.h">
+      <Filter>97. Module\07. Bounding\04. OBB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\AnimActor.h">
+      <Filter>02. Engine\03. Object\02. Actor\03. MeshActor\03. AnimActor\01. Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Charactor.h">
+      <Filter>02. Engine\03. Object\02. Actor\03. MeshActor\03. AnimActor\02. Charactor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\ColliderComponent.h">
+      <Filter>02. Engine\03. Object\03. ActorComponent\02. SceneComponent\02. PrimitiveComponent\04. Collider\01. Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\AttackCollider.h">
+      <Filter>02. Engine\03. Object\03. ActorComponent\02. SceneComponent\02. PrimitiveComponent\04. Collider\02. AttackCollider</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CustomFont.h">
+      <Filter>97. Module\08. Font</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\FontManager.h">
+      <Filter>01. Manager\10. FontManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\NavigationManager.h">
+      <Filter>01. Manager\11. NavigationManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Instancing.h">
+      <Filter>02. Engine\03. Object\03. ActorComponent\02. SceneComponent\02. PrimitiveComponent\02. NonMesh\06. Instancing\01. Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Particle_Rect.h">
+      <Filter>02. Engine\03. Object\03. ActorComponent\02. SceneComponent\02. PrimitiveComponent\02. NonMesh\06. Instancing\02. Paricle_Rect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\NonAnimModel.h">
+      <Filter>02. Engine\03. Object\03. ActorComponent\02. SceneComponent\02. PrimitiveComponent\03. Model\02. NonAnim\01. Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Projectile.h">
+      <Filter>02. Engine\03. Object\03. ActorComponent\02. SceneComponent\02. PrimitiveComponent\03. Model\02. NonAnim\02. Projectile</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\NonAnimActor.h">
+      <Filter>02. Engine\03. Object\02. Actor\03. MeshActor\02. NonAnimActor\01. Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\ProjectileActor.h">
+      <Filter>02. Engine\03. Object\02. Actor\03. MeshActor\02. NonAnimActor\02. ProjectileActor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\VIBuffer_Cube.h">
+      <Filter>02. Engine\03. Object\03. ActorComponent\02. SceneComponent\02. PrimitiveComponent\02. NonMesh\03. Cube</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\RenderTarget.h">
+      <Filter>97. Module\09. RenderTarget</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\RenderTargetManager.h">
+      <Filter>01. Manager\12. RenderTargetManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Rect_RenderTarget.h">
+      <Filter>02. Engine\03. Object\03. ActorComponent\02. SceneComponent\02. PrimitiveComponent\05. Rect_RenderTarget</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\AnimModel.h">
+      <Filter>02. Engine\03. Object\03. ActorComponent\02. SceneComponent\02. PrimitiveComponent\03. Model\03. Anim\01. Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\EffectMesh.h">
+      <Filter>02. Engine\03. Object\03. ActorComponent\02. SceneComponent\02. PrimitiveComponent\03. Model\04. EffectMesh</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Particle_Point.h">
+      <Filter>02. Engine\03. Object\03. ActorComponent\02. SceneComponent\02. PrimitiveComponent\02. NonMesh\06. Instancing\03. Particle_Point</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\ParticleActor.h">
+      <Filter>02. Engine\03. Object\02. Actor\02. NonMeshActor\01. ParticleActor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\ThirdPersonCamera.h">
+      <Filter>02. Engine\03. Object\03. ActorComponent\02. SceneComponent\03. Camera\02. ThirdPerson\01. Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\ProductionCamera.h">
+      <Filter>02. Engine\03. Object\03. ActorComponent\02. SceneComponent\03. Camera\03. ProductionCamera</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\VIBuffer_UI.h">
+      <Filter>02. Engine\03. Object\03. ActorComponent\02. SceneComponent\02. PrimitiveComponent\02. NonMesh\07. UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\EffectMeshActor.h">
+      <Filter>02. Engine\03. Object\02. Actor\03. MeshActor\04. EffectMeshActor\01. Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\MovingEffect.h">
+      <Filter>02. Engine\03. Object\02. Actor\03. MeshActor\04. EffectMeshActor\02. Debris</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\MonsterAttackEffect.h">
+      <Filter>02. Engine\03. Object\02. Actor\03. MeshActor\04. EffectMeshActor\04. MonsterAttackEffect\01. Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\SpriteActor.h">
+      <Filter>02. Engine\03. Object\02. Actor\02. NonMeshActor\02. SpriteActor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\MonsterProjectileEffect.h">
+      <Filter>02. Engine\03. Object\02. Actor\03. MeshActor\04. EffectMeshActor\04. MonsterAttackEffect\02. ProjectileEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\PlayerAttackEffect.h">
+      <Filter>02. Engine\03. Object\02. Actor\03. MeshActor\04. EffectMeshActor\03. PlayerAttackEffect\01. Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\PlayerProjectileEffect.h">
+      <Filter>02. Engine\03. Object\02. Actor\03. MeshActor\04. EffectMeshActor\03. PlayerAttackEffect\02. ProjectileEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\SoundManager.h">
+      <Filter>01. Manager\13. SoundManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\ThreadManager.h">
+      <Filter>01. Manager\14. ThreadManager</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>99. Default</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Level.cpp">
+      <Filter>02. Engine\01. Level</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Object.cpp">
+      <Filter>02. Engine\03. Object\01. Base</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine_pch.cpp">
+      <Filter>99. Default</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\LevelManager.cpp">
+      <Filter>01. Manager\02. LevelManager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Layer.cpp">
+      <Filter>02. Engine\02. Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\RenderManager.cpp">
+      <Filter>01. Manager\01. RenderManager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\TimerManager.cpp">
+      <Filter>00. System\02. TimerManager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Timer.cpp">
+      <Filter>00. System\02. TimerManager\Timer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\ActorComponent.cpp">
+      <Filter>02. Engine\03. Object\03. ActorComponent\01. Base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Actor.cpp">
+      <Filter>02. Engine\03. Object\02. Actor\01. Base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\ObjectManager.cpp">
+      <Filter>01. Manager\03. ObjectManager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\SceneComponent.cpp">
+      <Filter>02. Engine\03. Object\03. ActorComponent\02. SceneComponent\01. Base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\PrimitiveComponent.cpp">
+      <Filter>02. Engine\03. Object\03. ActorComponent\02. SceneComponent\02. PrimitiveComponent\01. Base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\VIBuffer_Rect.cpp">
+      <Filter>02. Engine\03. Object\03. ActorComponent\02. SceneComponent\02. PrimitiveComponent\02. NonMesh\02. Rect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Public\Engine_Struct.cpp">
+      <Filter>98. Header</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\DeviceManager.cpp">
+      <Filter>00. System\01. DeviceManager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\ResourceManager.cpp">
+      <Filter>01. Manager\04. ResourceManager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\VIBuffer_Terrain.cpp">
+      <Filter>02. Engine\03. Object\03. ActorComponent\02. SceneComponent\02. PrimitiveComponent\02. NonMesh\04. Terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\CameraManager.cpp">
+      <Filter>01. Manager\05. CameraManager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\InputManager.cpp">
+      <Filter>00. System\03. InputManager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\CollisionManager.cpp">
+      <Filter>01. Manager\06. CollisionManager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\LightManager.cpp">
+      <Filter>01. Manager\07. LightManager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Light.cpp">
+      <Filter>01. Manager\07. LightManager\Light</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\ModelComponent.cpp">
+      <Filter>02. Engine\03. Object\03. ActorComponent\02. SceneComponent\02. PrimitiveComponent\03. Model\01. Base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\NonMeshComponent.cpp">
+      <Filter>02. Engine\03. Object\03. ActorComponent\02. SceneComponent\02. PrimitiveComponent\02. NonMesh\01. Base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Mesh.cpp">
+      <Filter>97. Module\02. Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Texture.cpp">
+      <Filter>97. Module\01. Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\PrefabManager.cpp">
+      <Filter>01. Manager\08. PrefabManager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\SpawnManager.cpp">
+      <Filter>01. Manager\09. SpawnManager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Bone.cpp">
+      <Filter>97. Module\03. Bone</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\MeshActor.cpp">
+      <Filter>02. Engine\03. Object\02. Actor\03. MeshActor\01. Base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Animation.cpp">
+      <Filter>97. Module\04. Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Channel.cpp">
+      <Filter>97. Module\05. Channel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Navigation.cpp">
+      <Filter>97. Module\06. Navigation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Cell.cpp">
+      <Filter>02. Engine\03. Object\03. ActorComponent\02. SceneComponent\02. PrimitiveComponent\02. NonMesh\05. Cell</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\CameraComponent.cpp">
+      <Filter>02. Engine\03. Object\03. ActorComponent\02. SceneComponent\03. Camera\01. Base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\StateMachine.cpp">
+      <Filter>02. Engine\03. Object\03. ActorComponent\03. StateMachine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\DebugDraw.cpp">
+      <Filter>02. Engine\03. Object\03. ActorComponent\02. SceneComponent\02. PrimitiveComponent\04. Collider\01. Base\DebugDraw</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Bounding.cpp">
+      <Filter>97. Module\07. Bounding\01. Base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Bounding_Sphere.cpp">
+      <Filter>97. Module\07. Bounding\02. Sphere</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Bounding_AABB.cpp">
+      <Filter>97. Module\07. Bounding\03. AABB</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Bounding_OBB.cpp">
+      <Filter>97. Module\07. Bounding\04. OBB</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\AnimActor.cpp">
+      <Filter>02. Engine\03. Object\02. Actor\03. MeshActor\03. AnimActor\01. Base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Charactor.cpp">
+      <Filter>02. Engine\03. Object\02. Actor\03. MeshActor\03. AnimActor\02. Charactor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\ColliderComponent.cpp">
+      <Filter>02. Engine\03. Object\03. ActorComponent\02. SceneComponent\02. PrimitiveComponent\04. Collider\01. Base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\AttackCollider.cpp">
+      <Filter>02. Engine\03. Object\03. ActorComponent\02. SceneComponent\02. PrimitiveComponent\04. Collider\02. AttackCollider</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\CustomFont.cpp">
+      <Filter>97. Module\08. Font</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\FontManager.cpp">
+      <Filter>01. Manager\10. FontManager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\NavigationManager.cpp">
+      <Filter>01. Manager\11. NavigationManager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Instancing.cpp">
+      <Filter>02. Engine\03. Object\03. ActorComponent\02. SceneComponent\02. PrimitiveComponent\02. NonMesh\06. Instancing\01. Base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Particle_Rect.cpp">
+      <Filter>02. Engine\03. Object\03. ActorComponent\02. SceneComponent\02. PrimitiveComponent\02. NonMesh\06. Instancing\02. Paricle_Rect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\NonAnimModel.cpp">
+      <Filter>02. Engine\03. Object\03. ActorComponent\02. SceneComponent\02. PrimitiveComponent\03. Model\02. NonAnim\01. Base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Projectile.cpp">
+      <Filter>02. Engine\03. Object\03. ActorComponent\02. SceneComponent\02. PrimitiveComponent\03. Model\02. NonAnim\02. Projectile</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\NonAnimActor.cpp">
+      <Filter>02. Engine\03. Object\02. Actor\03. MeshActor\02. NonAnimActor\01. Base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\ProjectileActor.cpp">
+      <Filter>02. Engine\03. Object\02. Actor\03. MeshActor\02. NonAnimActor\02. ProjectileActor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\VIBuffer_Cube.cpp">
+      <Filter>02. Engine\03. Object\03. ActorComponent\02. SceneComponent\02. PrimitiveComponent\02. NonMesh\03. Cube</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\RenderTarget.cpp">
+      <Filter>97. Module\09. RenderTarget</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\RenderTargetManager.cpp">
+      <Filter>01. Manager\12. RenderTargetManager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Rect_RenderTarget.cpp">
+      <Filter>02. Engine\03. Object\03. ActorComponent\02. SceneComponent\02. PrimitiveComponent\05. Rect_RenderTarget</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\AnimModel.cpp">
+      <Filter>02. Engine\03. Object\03. ActorComponent\02. SceneComponent\02. PrimitiveComponent\03. Model\03. Anim\01. Base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\EffectMesh.cpp">
+      <Filter>02. Engine\03. Object\03. ActorComponent\02. SceneComponent\02. PrimitiveComponent\03. Model\04. EffectMesh</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Particle_Point.cpp">
+      <Filter>02. Engine\03. Object\03. ActorComponent\02. SceneComponent\02. PrimitiveComponent\02. NonMesh\06. Instancing\03. Particle_Point</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\ParticleActor.cpp">
+      <Filter>02. Engine\03. Object\02. Actor\02. NonMeshActor\01. ParticleActor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\ThirdPersonCamera.cpp">
+      <Filter>02. Engine\03. Object\03. ActorComponent\02. SceneComponent\03. Camera\02. ThirdPerson\01. Base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\ProductionCamera.cpp">
+      <Filter>02. Engine\03. Object\03. ActorComponent\02. SceneComponent\03. Camera\03. ProductionCamera</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\VIBuffer_UI.cpp">
+      <Filter>02. Engine\03. Object\03. ActorComponent\02. SceneComponent\02. PrimitiveComponent\02. NonMesh\07. UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\EffectMeshActor.cpp">
+      <Filter>02. Engine\03. Object\02. Actor\03. MeshActor\04. EffectMeshActor\01. Base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\MovingEffect.cpp">
+      <Filter>02. Engine\03. Object\02. Actor\03. MeshActor\04. EffectMeshActor\02. Debris</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\MonsterAttackEffect.cpp">
+      <Filter>02. Engine\03. Object\02. Actor\03. MeshActor\04. EffectMeshActor\04. MonsterAttackEffect\01. Base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\SpriteActor.cpp">
+      <Filter>02. Engine\03. Object\02. Actor\02. NonMeshActor\02. SpriteActor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\MonsterProjectileEffect.cpp">
+      <Filter>02. Engine\03. Object\02. Actor\03. MeshActor\04. EffectMeshActor\04. MonsterAttackEffect\02. ProjectileEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\PlayerAttackEffect.cpp">
+      <Filter>02. Engine\03. Object\02. Actor\03. MeshActor\04. EffectMeshActor\03. PlayerAttackEffect\01. Base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\PlayerProjectileEffect.cpp">
+      <Filter>02. Engine\03. Object\02. Actor\03. MeshActor\04. EffectMeshActor\03. PlayerAttackEffect\02. ProjectileEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\SoundManager.cpp">
+      <Filter>01. Manager\13. SoundManager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\ThreadManager.cpp">
+      <Filter>01. Manager\14. ThreadManager</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,977 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="01. Game">
+      <UniqueIdentifier>{c106d255-6689-4130-acbb-8a55a69e2a67}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98. Header">
+      <UniqueIdentifier>{75cec72d-2449-4125-b4f2-446ca351ca66}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Levels">
+      <UniqueIdentifier>{8cc480f8-2a45-4ec8-96aa-163845ba0f6a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Levels\01. Logo">
+      <UniqueIdentifier>{7a777f32-7a33-4606-a0cf-3e0464c83a9e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Levels\00. Loading">
+      <UniqueIdentifier>{860f0202-847f-4ee9-94ea-5dc490285ea5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Levels\00. Loading\Loader">
+      <UniqueIdentifier>{0dc054df-f5b5-40b5-9677-f351527de542}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Levels\02. Stage1">
+      <UniqueIdentifier>{9508334a-0889-44ec-872b-eaad5d7e1cb7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. GameObjects">
+      <UniqueIdentifier>{5356086d-772c-4ffd-8e36-5e4790ec2534}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97. Shader">
+      <UniqueIdentifier>{c6b3449c-c1b2-41d7-bc83-5cc2951106be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98. Header\01. pch">
+      <UniqueIdentifier>{501ff673-7d80-4e7f-9218-16e5ffcfc992}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Levels\04. Stage3">
+      <UniqueIdentifier>{3b750e9f-2ad1-4557-8d37-520537ca75d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Levels\03. Stage2">
+      <UniqueIdentifier>{dfc517be-0f6a-4c57-9f09-3719914207de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. GameObjects\02. UI">
+      <UniqueIdentifier>{61ef0e6d-9e20-4d8e-9123-e31febec2505}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. GameObjects\01. Object">
+      <UniqueIdentifier>{136cd8b7-3a88-45f6-af60-7753ad4b5c43}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. GameObjects\01. Object\01. Player">
+      <UniqueIdentifier>{a9f30c15-5dc6-4fef-9fe7-bbe3609dc697}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. GameObjects\01. Object\00. Terrain">
+      <UniqueIdentifier>{7346f324-2901-4f47-97c0-d03d779684a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. GameObjects\01. Object\02. Monster">
+      <UniqueIdentifier>{898bad0b-cdf0-4b6c-a498-a332e2ad7339}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. GameObjects\01. Object\02. Monster\01. Base">
+      <UniqueIdentifier>{bbb7edf2-eea8-484b-94f8-467b28521f07}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98. Header\02. StateDefine">
+      <UniqueIdentifier>{d91869bd-951c-48e4-864c-2544f8cec248}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. GameObjects\01. Object\02. Monster\01. Base\StateMachine">
+      <UniqueIdentifier>{78f94e5c-aba9-41ae-a5e4-0bd1a0332af5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. GameObjects\01. Object\03. Effect">
+      <UniqueIdentifier>{ecf8a646-a46d-4658-81a5-1f8d2a015fc8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. GameObjects\01. Object\03. Effect\Particle">
+      <UniqueIdentifier>{870071d7-177b-48ca-97dd-05641025e623}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. GameObjects\01. Object\04. Weapon">
+      <UniqueIdentifier>{dd2117ee-47d7-4736-8119-0bf2341edbb7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. GameObjects\01. Object\04. Weapon\01. Base">
+      <UniqueIdentifier>{8a119205-385e-4420-a078-ae9bc0577871}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Levels\99. ClientLevel">
+      <UniqueIdentifier>{2910af19-dea2-4d38-be39-87f0b948241b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. GameObjects\01. Object\05. Skybox">
+      <UniqueIdentifier>{ed210577-06de-4f4b-98d3-27a4ac3ca27d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. GameObjects\01. Object\00. Terrain\Stage1">
+      <UniqueIdentifier>{49cafff8-60ca-4521-905d-04053eb1f965}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. GameObjects\01. Object\00. Terrain\Stage2">
+      <UniqueIdentifier>{7d83099d-3436-4c70-aca9-8e6aeb52804c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. GameObjects\01. Object\00. Terrain\Stage3">
+      <UniqueIdentifier>{6a4b74f2-d68a-43da-8253-77479719d4ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. GameObjects\01. Object\03. Effect\Particle\01. Rect">
+      <UniqueIdentifier>{42ef1bd1-6975-4fe7-a48b-3b1ccbec9b02}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. GameObjects\01. Object\03. Effect\Particle\02. Point">
+      <UniqueIdentifier>{22de1e8d-1abd-4aba-96fa-47b96215dc5e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97. Shader\Teacher">
+      <UniqueIdentifier>{53d82c3e-e9d0-4672-a8e3-2ba8ce0662f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97. Shader\MyShader">
+      <UniqueIdentifier>{89e51bb3-d513-404f-afb8-84af29f11390}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97. Shader\MyShader\01. Base">
+      <UniqueIdentifier>{c07e4235-92c0-4a09-a45e-3934eaf13607}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97. Shader\MyShader\02. Eula">
+      <UniqueIdentifier>{f7ebd57e-6fb0-4960-9c6d-34fac341be16}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. GameObjects\02. UI\02. BackGround">
+      <UniqueIdentifier>{460a70a7-98c8-4569-811c-906643a1b363}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. GameObjects\02. UI\03. PlayerUI">
+      <UniqueIdentifier>{0764d3e0-f514-4a38-ba55-246e189067c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. GameObjects\02. UI\01. Base">
+      <UniqueIdentifier>{d4cd9417-8c03-425a-a821-a4b7ef464bbe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97. Shader\MyShader\99. UI">
+      <UniqueIdentifier>{f4eda393-67e5-4426-bcca-234e8df4c82e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97. Shader\MyShader\99. UI\01. Base">
+      <UniqueIdentifier>{0ad927aa-7d08-4e66-85ad-7c29defc2ac0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. GameObjects\02. UI\03. PlayerUI\01. SidePortrait">
+      <UniqueIdentifier>{28714681-ab69-4409-865c-1d386fbe6f2e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. GameObjects\02. UI\03. PlayerUI\02. SkillIcon">
+      <UniqueIdentifier>{201b9ba1-0042-4a5f-b9a6-e7b804ce6622}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. GameObjects\02. UI\03. PlayerUI\03. HPbar">
+      <UniqueIdentifier>{00b22a17-24e2-40e3-ac2e-1f532746cbf5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. GameObjects\02. UI\03. PlayerUI\04. HPbar_Frame">
+      <UniqueIdentifier>{6f080ebe-9831-4381-996f-2e434bda96ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. GameObjects\01. Object\02. Monster\02. Boss_Andreus">
+      <UniqueIdentifier>{85db7219-3403-4db3-96eb-2d7dff0d5439}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. GameObjects\01. Object\02. Monster\02. Boss_Andreus\StateMachine">
+      <UniqueIdentifier>{36c7da52-630b-4269-83c4-e4e1828b1baf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. GameObjects\01. Object\02. Monster\03. Normal">
+      <UniqueIdentifier>{56a6a78b-a2bd-4047-8752-27bbb37cfce8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. GameObjects\01. Object\02. Monster\03. Normal\01. Defender">
+      <UniqueIdentifier>{c0c44c0a-efbd-4aad-bf25-db19e061df12}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. GameObjects\01. Object\02. Monster\03. Normal\01. Defender\StateMachine">
+      <UniqueIdentifier>{3499025c-3fc8-4ddf-b907-f9b225c5e460}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. GameObjects\01. Object\02. Monster\03. Normal\02. Slime_Ice">
+      <UniqueIdentifier>{e1bae265-5008-4c22-823d-c1064dcbda97}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. GameObjects\01. Object\02. Monster\03. Normal\02. Slime_Ice\StateMachine">
+      <UniqueIdentifier>{d7b8e56f-5775-4591-bb95-d8264577f4be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. GameObjects\01. Object\02. Monster\03. Normal\03. Slime_Fire">
+      <UniqueIdentifier>{45c1f89b-3b36-4dff-a3ac-f84733f756e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. GameObjects\01. Object\02. Monster\03. Normal\03. Slime_Fire\StateMachine">
+      <UniqueIdentifier>{d4f62751-9351-4a41-b90c-c4c23b25eae9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. GameObjects\01. Object\02. Monster\03. Normal\04. Hili_Ice">
+      <UniqueIdentifier>{0a309085-af08-4874-9503-da6905a51384}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. GameObjects\01. Object\02. Monster\03. Normal\04. Hili_Ice\StateMachine">
+      <UniqueIdentifier>{dfd00747-9cce-4a65-a1aa-ad2efecc3ee0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. GameObjects\01. Object\02. Monster\03. Normal\04. Hili_Ice\Weapon">
+      <UniqueIdentifier>{64894b91-7228-44da-94c5-ae1679be7402}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. GameObjects\01. Object\02. Monster\03. Normal\05. Hili_Fire">
+      <UniqueIdentifier>{5182dd4c-48b2-4c41-968b-077e57d3c601}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. GameObjects\01. Object\02. Monster\03. Normal\05. Hili_Fire\StateMachine">
+      <UniqueIdentifier>{4ad921a6-bf03-439e-91ec-15f2c77ce6a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. GameObjects\01. Object\02. Monster\03. Normal\05. Hili_Fire\Weapon">
+      <UniqueIdentifier>{e14e551a-358b-4ac6-86d8-b0f563fbb00a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. GameObjects\01. Object\01. Player\01. Base">
+      <UniqueIdentifier>{8fc7effc-b6b8-48b6-8495-2d165a2a917d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. GameObjects\01. Object\01. Player\02. Eula">
+      <UniqueIdentifier>{e67b1eeb-8bb6-420b-896c-e3c861edc362}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. GameObjects\01. Object\01. Player\02. Eula\Weapon">
+      <UniqueIdentifier>{d516ee04-5beb-450c-9820-c78ff30e784d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. GameObjects\01. Object\01. Player\02. Eula\StateMachine">
+      <UniqueIdentifier>{fd1501ca-7f84-4a5b-a4b8-86d71efea8f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. GameObjects\01. Object\01. Player\03. Ambor">
+      <UniqueIdentifier>{76121d0e-2aa0-4dc3-ac80-a5287fe03462}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. GameObjects\01. Object\99. UserInstance">
+      <UniqueIdentifier>{7218c53b-f664-45ec-a169-27e354bfd139}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. GameObjects\01. Object\01. Player\03. Ambor\StateMachine">
+      <UniqueIdentifier>{ca0516dd-fb66-438c-b888-f8cd2ad7a176}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. GameObjects\01. Object\01. Player\03. Ambor\Weapon">
+      <UniqueIdentifier>{dd32eb8c-a316-44da-9f29-6daa193ea88e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. GameObjects\01. Object\02. Monster\03. Normal\00. Base">
+      <UniqueIdentifier>{6862c38a-e340-480f-b5e7-8c14839dc362}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. GameObjects\01. Object\02. Monster\02. Boss_Andreus\00. Base">
+      <UniqueIdentifier>{fa51e388-24a5-4db6-9b95-e5dd6beff03d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. GameObjects\02. UI\04. IngameUI">
+      <UniqueIdentifier>{32ce0807-42e9-46f9-8dbc-40fdf20d9989}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. GameObjects\02. UI\04. IngameUI\01. Base">
+      <UniqueIdentifier>{fe66b826-1e43-43b9-81f7-74e9c171a844}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. GameObjects\02. UI\04. IngameUI\02. MonsterHPbar">
+      <UniqueIdentifier>{050abfb9-1d17-43d1-8b85-7f1271358373}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. GameObjects\02. UI\04. IngameUI\03. MonsterHPbar_Frame">
+      <UniqueIdentifier>{1511ec50-23a4-4ca8-967a-0739663d2641}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. GameObjects\01. Object\01. Player\03. Ambor\ArrowRain">
+      <UniqueIdentifier>{018d4a64-47ef-43b1-bd40-b7d04da12312}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. GameObjects\01. Object\01. Player\04. Nahida">
+      <UniqueIdentifier>{5e090b7b-906b-4252-810c-29924ed13381}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. GameObjects\01. Object\01. Player\04. Nahida\StateMachine">
+      <UniqueIdentifier>{6c961a10-334b-4db3-8bec-b28b56bcde79}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. GameObjects\01. Object\01. Player\04. Nahida\Weapon">
+      <UniqueIdentifier>{6f4f67a2-ac5f-41fd-a8dc-01ad44e0fc56}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. GameObjects\01. Object\01. Player\05. Zhongli">
+      <UniqueIdentifier>{58420fac-c6cc-49b5-866c-08c6b3f5a4a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. GameObjects\01. Object\01. Player\05. Zhongli\Weapon">
+      <UniqueIdentifier>{eb419cb5-905a-4c3a-99f2-d4d7b5a94cd5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. GameObjects\01. Object\01. Player\05. Zhongli\StateMachine">
+      <UniqueIdentifier>{a6096c6b-f6f2-4bf9-9959-36056a88ecc4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97. Shader\MyShader\03. Ambor">
+      <UniqueIdentifier>{12c75a8a-fc42-4b8c-8d56-0e9634ac4b08}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97. Shader\MyShader\98. Andrius">
+      <UniqueIdentifier>{3167724d-4978-4952-90b5-8bf11f3eada4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97. Shader\MyShader\98. Andrius\Particle">
+      <UniqueIdentifier>{e9c2a328-76be-4b59-b64e-aed0198eb7f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97. Shader\MyShader\04. Nahida">
+      <UniqueIdentifier>{8abfe4e3-aba1-420f-9d7e-73cc304526bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. GameObjects\01. Object\01. Player\04. Nahida\CaptureEffect">
+      <UniqueIdentifier>{1f1de2ed-64af-43e1-8d83-1d644f298572}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. GameObjects\01. Object\01. Player\04. Nahida\Seal">
+      <UniqueIdentifier>{807e445a-a80d-43e3-8bae-8edfde51308d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. GameObjects\02. UI\02. BackGround\Main">
+      <UniqueIdentifier>{a7600799-8fc8-49a0-9383-28106324bcbd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. GameObjects\02. UI\02. BackGround\Loading1">
+      <UniqueIdentifier>{f712ce47-c434-406c-92dc-127c0f9bc0d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. GameObjects\02. UI\02. BackGround\LoadingText1">
+      <UniqueIdentifier>{6fae56d8-752f-42ec-a22e-bba889c86013}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97. Shader\MyShader\05. Zhongli">
+      <UniqueIdentifier>{b6be9891-9d88-4fd6-a9bf-638d58059c0a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. GameObjects\01. Object\01. Player\05. Zhongli\Jusin">
+      <UniqueIdentifier>{f461ae4d-536e-431d-8432-ee7deb51b3f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. GameObjects\01. Object\01. Player\05. Zhongli\Shield">
+      <UniqueIdentifier>{8eab8dbe-a4dc-402b-b6d8-04037ee14550}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99. Default">
+      <UniqueIdentifier>{39a787d5-f6c0-46d6-a7be-9097b62a9dfb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. GameObjects\02. UI\04. IngameUI\04. DamageFont">
+      <UniqueIdentifier>{7ecdf579-1d63-4287-b123-c32116beaab1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. GameObjects\02. UI\04. IngameUI\05. ElementalReaction">
+      <UniqueIdentifier>{2d3d94ca-7555-4069-a3a4-f4c11094bbda}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. GameObjects\01. Object\06. Trigger">
+      <UniqueIdentifier>{ead10ee1-2847-4f6c-afe3-87d3de80b5c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. GameObjects\01. Object\06. Trigger\MonsterKey">
+      <UniqueIdentifier>{51b77909-bb58-49ec-b713-17b57522f077}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. GameObjects\01. Object\06. Trigger\MonsterKey\Header">
+      <UniqueIdentifier>{32fe7c33-0361-4cd7-a516-88a9f60e7263}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. GameObjects\01. Object\06. Trigger\MonsterKey\Cpp">
+      <UniqueIdentifier>{539f77ee-9177-465b-81a8-58146b03892a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97. Shader\MyShader\06. MonsterKey">
+      <UniqueIdentifier>{667877dd-4f63-4389-bb98-4d64a5b5f21a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. GameObjects\02. UI\04. IngameUI\06. MonsterKey">
+      <UniqueIdentifier>{15706f3d-bdd8-47c2-94ef-3b8021e0aeae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. GameObjects\01. Object\06. Trigger\DungeonExit">
+      <UniqueIdentifier>{07461b6d-2bcc-46e4-9da5-328efea4a23c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. GameObjects\02. UI\04. IngameUI\07. DungeonExit">
+      <UniqueIdentifier>{44c5eb1e-076e-4a14-85a3-4ef6136218cf}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Resource.h">
+      <Filter>99. Default</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>99. Default</Filter>
+    </ClInclude>
+    <ClInclude Include="Client.h">
+      <Filter>99. Default</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\MainApp.h">
+      <Filter>01. Game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Level_Logo.h">
+      <Filter>02. Levels\01. Logo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Level_Loading.h">
+      <Filter>02. Levels\00. Loading</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Loader.h">
+      <Filter>02. Levels\00. Loading\Loader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Level_Stage1.h">
+      <Filter>02. Levels\02. Stage1</Filter>
+    </ClInclude>
+    <ClInclude Include="framework.h">
+      <Filter>99. Default</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>98. Header\01. pch</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Level_Stage2.h">
+      <Filter>02. Levels\03. Stage2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Level_Stage3.h">
+      <Filter>02. Levels\04. Stage3</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Defender.h">
+      <Filter>03. GameObjects\01. Object\02. Monster\03. Normal\01. Defender</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Slime_Ice.h">
+      <Filter>03. GameObjects\01. Object\02. Monster\03. Normal\02. Slime_Ice</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Slime_Fire.h">
+      <Filter>03. GameObjects\01. Object\02. Monster\03. Normal\03. Slime_Fire</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Songlue.h">
+      <Filter>03. GameObjects\01. Object\01. Player\02. Eula\Weapon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Monster.h">
+      <Filter>03. GameObjects\01. Object\02. Monster\01. Base</Filter>
+    </ClInclude>
+    <ClInclude Include="MonsterStateDefine.h">
+      <Filter>98. Header\02. StateDefine</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerStateDefine.h">
+      <Filter>98. Header\02. StateDefine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\DefenderStateMachine.h">
+      <Filter>03. GameObjects\01. Object\02. Monster\03. Normal\01. Defender\StateMachine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\MonsterStateMachine.h">
+      <Filter>03. GameObjects\01. Object\02. Monster\01. Base\StateMachine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Weapon.h">
+      <Filter>03. GameObjects\01. Object\04. Weapon\01. Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Hili_CrossBow.h">
+      <Filter>03. GameObjects\01. Object\02. Monster\03. Normal\04. Hili_Ice\Weapon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Slime_Ice_StateMachine.h">
+      <Filter>03. GameObjects\01. Object\02. Monster\03. Normal\02. Slime_Ice\StateMachine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Hili_Ice.h">
+      <Filter>03. GameObjects\01. Object\02. Monster\03. Normal\04. Hili_Ice</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Hili_Fire.h">
+      <Filter>03. GameObjects\01. Object\02. Monster\03. Normal\05. Hili_Fire</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Hili_Ice_StateMachine.h">
+      <Filter>03. GameObjects\01. Object\02. Monster\03. Normal\04. Hili_Ice\StateMachine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Hili_Fire_StateMachine.h">
+      <Filter>03. GameObjects\01. Object\02. Monster\03. Normal\05. Hili_Fire\StateMachine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Slime_Fire_StateMachine.h">
+      <Filter>03. GameObjects\01. Object\02. Monster\03. Normal\03. Slime_Fire\StateMachine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\ClientLevel.h">
+      <Filter>02. Levels\99. ClientLevel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Hili_Club.h">
+      <Filter>03. GameObjects\01. Object\02. Monster\03. Normal\05. Hili_Fire\Weapon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Skybox.h">
+      <Filter>03. GameObjects\01. Object\05. Skybox</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Stage1_Navi.h">
+      <Filter>03. GameObjects\01. Object\00. Terrain\Stage1</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Stage2_Navi.h">
+      <Filter>03. GameObjects\01. Object\00. Terrain\Stage2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Boss_Andreus.h">
+      <Filter>03. GameObjects\01. Object\02. Monster\02. Boss_Andreus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\AndreusStateMachine.h">
+      <Filter>03. GameObjects\01. Object\02. Monster\02. Boss_Andreus\StateMachine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Stage3_Navi.h">
+      <Filter>03. GameObjects\01. Object\00. Terrain\Stage3</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\ParticleActor_Rect.h">
+      <Filter>03. GameObjects\01. Object\03. Effect\Particle\01. Rect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\ParticleActor_Point.h">
+      <Filter>03. GameObjects\01. Object\03. Effect\Particle\02. Point</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UIActor_Base.h">
+      <Filter>03. GameObjects\02. UI\01. Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\SidePortrait.h">
+      <Filter>03. GameObjects\02. UI\03. PlayerUI\01. SidePortrait</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\SkillIcon.h">
+      <Filter>03. GameObjects\02. UI\03. PlayerUI\02. SkillIcon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\HPbar.h">
+      <Filter>03. GameObjects\02. UI\03. PlayerUI\03. HPbar</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\HPbar_Frame.h">
+      <Filter>03. GameObjects\02. UI\03. PlayerUI\04. HPbar_Frame</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Player_Eula.h">
+      <Filter>03. GameObjects\01. Object\01. Player\02. Eula</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Player.h">
+      <Filter>03. GameObjects\01. Object\01. Player\01. Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Eula_StateMachine.h">
+      <Filter>03. GameObjects\01. Object\01. Player\02. Eula\StateMachine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UserInstance.h">
+      <Filter>03. GameObjects\01. Object\99. UserInstance</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Player_Ambor.h">
+      <Filter>03. GameObjects\01. Object\01. Player\03. Ambor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Amos.h">
+      <Filter>03. GameObjects\01. Object\01. Player\03. Ambor\Weapon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Ambor_StateMachine.h">
+      <Filter>03. GameObjects\01. Object\01. Player\03. Ambor\StateMachine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\PlayerStateMachine.h">
+      <Filter>03. GameObjects\01. Object\01. Player\01. Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\NormalMonster.h">
+      <Filter>03. GameObjects\01. Object\02. Monster\03. Normal\00. Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\BossMonster.h">
+      <Filter>03. GameObjects\01. Object\02. Monster\02. Boss_Andreus\00. Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\IngameUI.h">
+      <Filter>03. GameObjects\02. UI\04. IngameUI\01. Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\MonsterHPbar.h">
+      <Filter>03. GameObjects\02. UI\04. IngameUI\02. MonsterHPbar</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\MonsterHPbar_Frame.h">
+      <Filter>03. GameObjects\02. UI\04. IngameUI\03. MonsterHPbar_Frame</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\ArrowRain_Floor.h">
+      <Filter>03. GameObjects\01. Object\01. Player\03. Ambor\ArrowRain</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Player_Nahida.h">
+      <Filter>03. GameObjects\01. Object\01. Player\04. Nahida</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Catalyst.h">
+      <Filter>03. GameObjects\01. Object\01. Player\04. Nahida\Weapon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Player_Zhongli.h">
+      <Filter>03. GameObjects\01. Object\01. Player\05. Zhongli</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Nahida_StateMachine.h">
+      <Filter>03. GameObjects\01. Object\01. Player\04. Nahida\StateMachine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Zhongli_StateMachine.h">
+      <Filter>03. GameObjects\01. Object\01. Player\05. Zhongli\StateMachine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Kunwu.h">
+      <Filter>03. GameObjects\01. Object\01. Player\05. Zhongli\Weapon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CaptureEffect.h">
+      <Filter>03. GameObjects\01. Object\01. Player\04. Nahida\CaptureEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Seal.h">
+      <Filter>03. GameObjects\01. Object\01. Player\04. Nahida\Seal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\BackGround.h">
+      <Filter>03. GameObjects\02. UI\02. BackGround\Main</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Logo_LoadingText.h">
+      <Filter>03. GameObjects\02. UI\02. BackGround\LoadingText1</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\BackGround_Loading2.h">
+      <Filter>03. GameObjects\02. UI\02. BackGround\Loading1</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Logo_LoadingText2.h">
+      <Filter>03. GameObjects\02. UI\02. BackGround\LoadingText1</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\BackGround_Loading1.h">
+      <Filter>03. GameObjects\02. UI\02. BackGround\Loading1</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\BackGround_Loading3.h">
+      <Filter>03. GameObjects\02. UI\02. BackGround\Loading1</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Jusin.h">
+      <Filter>03. GameObjects\01. Object\01. Player\05. Zhongli\Jusin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Shield.h">
+      <Filter>03. GameObjects\01. Object\01. Player\05. Zhongli\Shield</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\DamageFont.h">
+      <Filter>03. GameObjects\02. UI\04. IngameUI\04. DamageFont</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\ElementalReaction.h">
+      <Filter>03. GameObjects\02. UI\04. IngameUI\05. ElementalReaction</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\MonsterKey_1.h">
+      <Filter>03. GameObjects\01. Object\06. Trigger\MonsterKey\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\MonsterKey_2.h">
+      <Filter>03. GameObjects\01. Object\06. Trigger\MonsterKey\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\MonsterKey_3.h">
+      <Filter>03. GameObjects\01. Object\06. Trigger\MonsterKey\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\MonsterKey_4.h">
+      <Filter>03. GameObjects\01. Object\06. Trigger\MonsterKey\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\MonsterKeyUI.h">
+      <Filter>03. GameObjects\02. UI\04. IngameUI\06. MonsterKey</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\DungeonExit.h">
+      <Filter>03. GameObjects\01. Object\06. Trigger\DungeonExit</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\DungeonExitUI.h">
+      <Filter>03. GameObjects\02. UI\04. IngameUI\07. DungeonExit</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Skybox2.h">
+      <Filter>03. GameObjects\01. Object\05. Skybox</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Client.cpp">
+      <Filter>99. Default</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\MainApp.cpp">
+      <Filter>01. Game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Level_Logo.cpp">
+      <Filter>02. Levels\01. Logo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Level_Loading.cpp">
+      <Filter>02. Levels\00. Loading</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Loader.cpp">
+      <Filter>02. Levels\00. Loading\Loader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Level_Stage1.cpp">
+      <Filter>02. Levels\02. Stage1</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>98. Header\01. pch</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Level_Stage2.cpp">
+      <Filter>02. Levels\03. Stage2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Level_Stage3.cpp">
+      <Filter>02. Levels\04. Stage3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Defender.cpp">
+      <Filter>03. GameObjects\01. Object\02. Monster\03. Normal\01. Defender</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Slime_Ice.cpp">
+      <Filter>03. GameObjects\01. Object\02. Monster\03. Normal\02. Slime_Ice</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Slime_Fire.cpp">
+      <Filter>03. GameObjects\01. Object\02. Monster\03. Normal\03. Slime_Fire</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Songlue.cpp">
+      <Filter>03. GameObjects\01. Object\01. Player\02. Eula\Weapon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Monster.cpp">
+      <Filter>03. GameObjects\01. Object\02. Monster\01. Base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\DefenderStateMachine.cpp">
+      <Filter>03. GameObjects\01. Object\02. Monster\03. Normal\01. Defender\StateMachine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\MonsterStateMachine.cpp">
+      <Filter>03. GameObjects\01. Object\02. Monster\01. Base\StateMachine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Weapon.cpp">
+      <Filter>03. GameObjects\01. Object\04. Weapon\01. Base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Hili_CrossBow.cpp">
+      <Filter>03. GameObjects\01. Object\02. Monster\03. Normal\04. Hili_Ice\Weapon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Slime_Ice_StateMachine.cpp">
+      <Filter>03. GameObjects\01. Object\02. Monster\03. Normal\02. Slime_Ice\StateMachine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Hili_Ice.cpp">
+      <Filter>03. GameObjects\01. Object\02. Monster\03. Normal\04. Hili_Ice</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Hili_Fire.cpp">
+      <Filter>03. GameObjects\01. Object\02. Monster\03. Normal\05. Hili_Fire</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Hili_Ice_StateMachine.cpp">
+      <Filter>03. GameObjects\01. Object\02. Monster\03. Normal\04. Hili_Ice\StateMachine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Hili_Fire_StateMachine.cpp">
+      <Filter>03. GameObjects\01. Object\02. Monster\03. Normal\05. Hili_Fire\StateMachine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Slime_Fire_StateMachine.cpp">
+      <Filter>03. GameObjects\01. Object\02. Monster\03. Normal\03. Slime_Fire\StateMachine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\ClientLevel.cpp">
+      <Filter>02. Levels\99. ClientLevel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Hili_Club.cpp">
+      <Filter>03. GameObjects\01. Object\02. Monster\03. Normal\05. Hili_Fire\Weapon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Skybox.cpp">
+      <Filter>03. GameObjects\01. Object\05. Skybox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Stage1_Navi.cpp">
+      <Filter>03. GameObjects\01. Object\00. Terrain\Stage1</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Stage2_Navi.cpp">
+      <Filter>03. GameObjects\01. Object\00. Terrain\Stage2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Boss_Andreus.cpp">
+      <Filter>03. GameObjects\01. Object\02. Monster\02. Boss_Andreus</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\AndreusStateMachine.cpp">
+      <Filter>03. GameObjects\01. Object\02. Monster\02. Boss_Andreus\StateMachine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Stage3_Navi.cpp">
+      <Filter>03. GameObjects\01. Object\00. Terrain\Stage3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\ParticleActor_Rect.cpp">
+      <Filter>03. GameObjects\01. Object\03. Effect\Particle\01. Rect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\ParticleActor_Point.cpp">
+      <Filter>03. GameObjects\01. Object\03. Effect\Particle\02. Point</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UIActor_Base.cpp">
+      <Filter>03. GameObjects\02. UI\01. Base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\SidePortrait.cpp">
+      <Filter>03. GameObjects\02. UI\03. PlayerUI\01. SidePortrait</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\SkillIcon.cpp">
+      <Filter>03. GameObjects\02. UI\03. PlayerUI\02. SkillIcon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\HPbar.cpp">
+      <Filter>03. GameObjects\02. UI\03. PlayerUI\03. HPbar</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\HPbar_Frame.cpp">
+      <Filter>03. GameObjects\02. UI\03. PlayerUI\04. HPbar_Frame</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Player_Eula.cpp">
+      <Filter>03. GameObjects\01. Object\01. Player\02. Eula</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Player.cpp">
+      <Filter>03. GameObjects\01. Object\01. Player\01. Base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Eula_StateMachine.cpp">
+      <Filter>03. GameObjects\01. Object\01. Player\02. Eula\StateMachine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UserInstance.cpp">
+      <Filter>03. GameObjects\01. Object\99. UserInstance</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Player_Ambor.cpp">
+      <Filter>03. GameObjects\01. Object\01. Player\03. Ambor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Amos.cpp">
+      <Filter>03. GameObjects\01. Object\01. Player\03. Ambor\Weapon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Ambor_StateMachine.cpp">
+      <Filter>03. GameObjects\01. Object\01. Player\03. Ambor\StateMachine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\PlayerStateMachine.cpp">
+      <Filter>03. GameObjects\01. Object\01. Player\01. Base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\NormalMonster.cpp">
+      <Filter>03. GameObjects\01. Object\02. Monster\03. Normal\00. Base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\BossMonster.cpp">
+      <Filter>03. GameObjects\01. Object\02. Monster\02. Boss_Andreus\00. Base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\IngameUI.cpp">
+      <Filter>03. GameObjects\02. UI\04. IngameUI\01. Base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\MonsterHPbar.cpp">
+      <Filter>03. GameObjects\02. UI\04. IngameUI\02. MonsterHPbar</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\MonsterHPbar_Frame.cpp">
+      <Filter>03. GameObjects\02. UI\04. IngameUI\03. MonsterHPbar_Frame</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\ArrowRain_Floor.cpp">
+      <Filter>03. GameObjects\01. Object\01. Player\03. Ambor\ArrowRain</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Player_Nahida.cpp">
+      <Filter>03. GameObjects\01. Object\01. Player\04. Nahida</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Catalyst.cpp">
+      <Filter>03. GameObjects\01. Object\01. Player\04. Nahida\Weapon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Player_Zhongli.cpp">
+      <Filter>03. GameObjects\01. Object\01. Player\05. Zhongli</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Nahida_StateMachine.cpp">
+      <Filter>03. GameObjects\01. Object\01. Player\04. Nahida\StateMachine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Zhongli_StateMachine.cpp">
+      <Filter>03. GameObjects\01. Object\01. Player\05. Zhongli\StateMachine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Kunwu.cpp">
+      <Filter>03. GameObjects\01. Object\01. Player\05. Zhongli\Weapon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\CaptureEffect.cpp">
+      <Filter>03. GameObjects\01. Object\01. Player\04. Nahida\CaptureEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Seal.cpp">
+      <Filter>03. GameObjects\01. Object\01. Player\04. Nahida\Seal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\BackGround.cpp">
+      <Filter>03. GameObjects\02. UI\02. BackGround\Main</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Logo_LoadingText.cpp">
+      <Filter>03. GameObjects\02. UI\02. BackGround\LoadingText1</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\BackGround_Loading2.cpp">
+      <Filter>03. GameObjects\02. UI\02. BackGround\Loading1</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Logo_LoadingText2.cpp">
+      <Filter>03. GameObjects\02. UI\02. BackGround\LoadingText1</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\BackGround_Loading1.cpp">
+      <Filter>03. GameObjects\02. UI\02. BackGround\Loading1</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\BackGround_Loading3.cpp">
+      <Filter>03. GameObjects\02. UI\02. BackGround\Loading1</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Jusin.cpp">
+      <Filter>03. GameObjects\01. Object\01. Player\05. Zhongli\Jusin</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Shield.cpp">
+      <Filter>03. GameObjects\01. Object\01. Player\05. Zhongli\Shield</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\DamageFont.cpp">
+      <Filter>03. GameObjects\02. UI\04. IngameUI\04. DamageFont</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\ElementalReaction.cpp">
+      <Filter>03. GameObjects\02. UI\04. IngameUI\05. ElementalReaction</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\MonsterKey_1.cpp">
+      <Filter>03. GameObjects\01. Object\06. Trigger\MonsterKey\Cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\MonsterKey_2.cpp">
+      <Filter>03. GameObjects\01. Object\06. Trigger\MonsterKey\Cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\MonsterKey_3.cpp">
+      <Filter>03. GameObjects\01. Object\06. Trigger\MonsterKey\Cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\MonsterKey_4.cpp">
+      <Filter>03. GameObjects\01. Object\06. Trigger\MonsterKey\Cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\MonsterKeyUI.cpp">
+      <Filter>03. GameObjects\02. UI\04. IngameUI\06. MonsterKey</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\DungeonExit.cpp">
+      <Filter>03. GameObjects\01. Object\06. Trigger\DungeonExit</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\DungeonExitUI.cpp">
+      <Filter>03. GameObjects\02. UI\04. IngameUI\07. DungeonExit</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Skybox2.cpp">
+      <Filter>03. GameObjects\01. Object\05. Skybox</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Client.ico">
+      <Filter>99. Default</Filter>
+    </Image>
+    <Image Include="small.ico">
+      <Filter>99. Default</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Client.rc">
+      <Filter>99. Default</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="..\..\Resources\Level_Static\ShaderFiles\Shader_Cell.hlsl">
+      <Filter>97. Shader\Teacher</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\Resources\Level_Static\ShaderFiles\Shader_Deferred.hlsl">
+      <Filter>97. Shader\Teacher</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\Resources\Level_Static\ShaderFiles\Shader_VtxAnimMesh.hlsl">
+      <Filter>97. Shader\Teacher</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\Resources\Level_Static\ShaderFiles\Shader_VtxCube.hlsl">
+      <Filter>97. Shader\Teacher</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\Resources\Level_Static\ShaderFiles\Shader_VtxMesh.hlsl">
+      <Filter>97. Shader\Teacher</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\Resources\Level_Static\ShaderFiles\Shader_VtxNorTex.hlsl">
+      <Filter>97. Shader\Teacher</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\Resources\Level_Static\ShaderFiles\Shader_VtxPointInstance.hlsl">
+      <Filter>97. Shader\Teacher</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\Resources\Level_Static\ShaderFiles\Shader_VtxPosTex.hlsl">
+      <Filter>97. Shader\Teacher</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\Resources\Level_Static\ShaderFiles\Shader_VtxRectInstance.hlsl">
+      <Filter>97. Shader\Teacher</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\Resources\Level_Static\ShaderFiles\Shader_Eula_NormalAttack1.hlsl">
+      <Filter>97. Shader\MyShader\02. Eula</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\Resources\Level_Static\ShaderFiles\Shader_Eula_Skill_E.hlsl">
+      <Filter>97. Shader\MyShader\02. Eula</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\Resources\Level_Static\ShaderFiles\Shader_VtxEffectMesh.hlsl">
+      <Filter>97. Shader\MyShader\01. Base</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\Resources\Level_Static\ShaderFiles\Shader_UIBase.hlsl">
+      <Filter>97. Shader\MyShader\99. UI\01. Base</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\Resources\Level_Static\ShaderFiles\Shader_UI_SkillIcon.hlsl">
+      <Filter>97. Shader\MyShader\99. UI</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\Resources\Level_Static\ShaderFiles\Shader_UI_HPbar.hlsl">
+      <Filter>97. Shader\MyShader\99. UI</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\Resources\Level_Static\ShaderFiles\Shader_UI_HPbar_Frame.hlsl">
+      <Filter>97. Shader\MyShader\99. UI</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\Resources\Level_Static\ShaderFiles\Shader_Eula_Skill_Q.hlsl">
+      <Filter>97. Shader\MyShader\02. Eula</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\Resources\Level_Static\ShaderFiles\Shader_Andrius_Attack_One.hlsl">
+      <Filter>97. Shader\MyShader\98. Andrius</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\Resources\Level_Static\ShaderFiles\Shader_Andrius_Attack_One_Particle.hlsl">
+      <Filter>97. Shader\MyShader\98. Andrius\Particle</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\Resources\Level_Static\ShaderFiles\Shader_Andrius_Attack_Three_IceField.hlsl">
+      <Filter>97. Shader\MyShader\98. Andrius</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\Resources\Level_Static\ShaderFiles\Shader_Andrius_Attack_Three_Aura.hlsl">
+      <Filter>97. Shader\MyShader\98. Andrius</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\Resources\Level_Static\ShaderFiles\Shader_Andrius_Attack_Three_Debris.hlsl">
+      <Filter>97. Shader\MyShader\98. Andrius</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\Resources\Level_Static\ShaderFiles\Shader_Andrius_Attack_Turn.hlsl">
+      <Filter>97. Shader\MyShader\98. Andrius</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\Resources\Level_Static\ShaderFiles\Shader_Andrius_Pattern_Two_WindBlade.hlsl">
+      <Filter>97. Shader\MyShader\98. Andrius</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\Resources\Level_Static\ShaderFiles\Shader_Andrius_PaizeChange.hlsl">
+      <Filter>97. Shader\MyShader\98. Andrius</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\Resources\Level_Static\ShaderFiles\Shader_Andrius_PaizeChange_Thunder.hlsl">
+      <Filter>97. Shader\MyShader\98. Andrius</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\Resources\Level_Static\ShaderFiles\Shader_Sprite.hlsl">
+      <Filter>97. Shader\MyShader\01. Base</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\Resources\Level_Static\ShaderFiles\Shader_Sprite_BlackCut.hlsl">
+      <Filter>97. Shader\MyShader\01. Base</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\Resources\Level_Static\ShaderFiles\Shader_UI_SkillIconFrame.hlsl">
+      <Filter>97. Shader\MyShader\99. UI</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\Resources\Level_Static\ShaderFiles\Shader_UI_PortraitFrame.hlsl">
+      <Filter>97. Shader\MyShader\99. UI</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\Resources\Level_Static\ShaderFiles\Shader_UI_MonsterHPbar.hlsl">
+      <Filter>97. Shader\MyShader\99. UI</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\Resources\Level_Static\ShaderFiles\Shader_UI_MonsterHPbar_Frame.hlsl">
+      <Filter>97. Shader\MyShader\99. UI</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\Resources\Level_Static\ShaderFiles\Shader_UI_BossHPbar.hlsl">
+      <Filter>97. Shader\MyShader\99. UI</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\Resources\Level_Static\ShaderFiles\Shader_UI_BossHPbar_Frame.hlsl">
+      <Filter>97. Shader\MyShader\99. UI</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\Resources\Level_Static\ShaderFiles\Shader_VtxPointInstance_NoTime.hlsl">
+      <Filter>97. Shader\MyShader\01. Base</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\Resources\Level_Static\ShaderFiles\Shader_Sprite_AlphaDecrease.hlsl">
+      <Filter>97. Shader\MyShader\01. Base</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\Resources\Level_Static\ShaderFiles\Shader_Sprite_ZeroAlphaCut.hlsl">
+      <Filter>97. Shader\MyShader\01. Base</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\Resources\Level_Static\ShaderFiles\Shader_Eula_Skill_E_Particle.hlsl">
+      <Filter>97. Shader\MyShader\02. Eula</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\Resources\Level_Static\ShaderFiles\Shader_Ambor_NormalAttack1.hlsl">
+      <Filter>97. Shader\MyShader\03. Ambor</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\Resources\Level_Static\ShaderFiles\Shader_Eula_NormalAttack5.hlsl">
+      <Filter>97. Shader\MyShader\02. Eula</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\Resources\Level_Static\ShaderFiles\Shader_Nahida_Skill_Q.hlsl">
+      <Filter>97. Shader\MyShader\04. Nahida</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\Resources\Level_Static\ShaderFiles\Shader_Nahida_NormalAttack_Flower.hlsl">
+      <Filter>97. Shader\MyShader\04. Nahida</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\Resources\Level_Static\ShaderFiles\Shader_Nahida_NormalAttack_Floor.hlsl">
+      <Filter>97. Shader\MyShader\04. Nahida</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\Resources\Level_Static\ShaderFiles\Shader_Nahida_Skill_E_Frame.hlsl">
+      <Filter>97. Shader\MyShader\04. Nahida</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\Resources\Level_Static\ShaderFiles\Shader_Nahida_Skill_E_RotateCard.hlsl">
+      <Filter>97. Shader\MyShader\04. Nahida</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\Resources\Level_Static\ShaderFiles\Shader_Nahida_NormalAttack_Particle.hlsl">
+      <Filter>97. Shader\MyShader\04. Nahida</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\Resources\Level_Static\ShaderFiles\Shader_Zhongli_Shield.hlsl">
+      <Filter>97. Shader\MyShader\05. Zhongli</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\Resources\Level_Static\ShaderFiles\Shader_Zhongli_Jusin.hlsl">
+      <Filter>97. Shader\MyShader\05. Zhongli</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\Resources\Level_Static\ShaderFiles\Shader_Zhongli_Shield_Cylinder.hlsl">
+      <Filter>97. Shader\MyShader\05. Zhongli</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\Resources\Level_Static\ShaderFiles\Shader_MonsterKey.hlsl">
+      <Filter>97. Shader\MyShader\06. MonsterKey</Filter>
+    </FxCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\Resources\Level_Static\ShaderFiles\Shader_Defines.hlsli">
+      <Filter>97. Shader\Teacher</Filter>
+    </None>
+  </ItemGroup>
+</Project>

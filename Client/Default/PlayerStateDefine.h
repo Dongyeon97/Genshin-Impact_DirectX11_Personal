@@ -1,0 +1,167 @@
+#pragma once
+
+#include "pch.h"
+#include "StateMachine.h"
+
+namespace PLAYER_STATE
+{	
+#pragma region 움직임
+
+	// ※ 플래그와 열거체 변수값은 동일하게 맞춰줘야 함 ※
+
+	const _ullong STANDBY			= 0x0000000000000000;
+	
+	const _ullong WALK				= 0x0000000000000001;
+	const _ullong WALK_STOP			= 0x0000000000000002;
+	
+	const _ullong RUN_START			= 0x0000000000000004;
+	const _ullong RUN_CYCLE			= 0x0000000000000008;
+	const _ullong RUN_STOP			= 0x0000000000000010;
+	const _ullong RUN_DOWNHILL		= 0x0000000000000020;
+	const _ullong RUN_TO_WALK		= 0x0000000000000040;
+
+	const _ullong SPRINT_START		= 0x0000000000000080;
+	const _ullong SPRINT_CYCLE		= 0x0000000000000100;
+	const _ullong SPRINT_STOP		= 0x0000000000000200;
+	const _ullong SPRINT_TO_RUN		= 0x0000000000000400;
+
+	const _ullong JUMP				= 0x0000000000000800;
+	const _ullong JUMP_FOR_WALK		= 0x0000000000001000;
+	const _ullong JUMP_FOR_RUN		= 0x0000000000002000;
+	const _ullong JUMP_FOR_SPRINT	= 0x0000000000004000;
+	const _ullong JUMP_UPSTAIRS_H	= 0x0000000000008000;
+	const _ullong JUMP_UPSTAIRS_L	= 0x0000000000010000;
+	const _ullong JUMP_OFF_WALL		= 0x0000000000020000;
+
+	const _ullong FALL_TO_GROUND_L	= 0x0000000000040000;
+	const _ullong FALL_TO_GROUND_H	= 0x0000000000080000;
+	const _ullong FALL_TO_GROUND_BSH= 0x0000000000100000;
+
+	const _ullong CLIMB_IDLE_D		= 0x0000000000200000;
+	const _ullong CLIMB_L			= 0x0000000000400000;
+	const _ullong CLIMB_U			= 0x0000000000800000;
+	const _ullong CLIMB_R			= 0x0000000001000000;
+
+	const _ullong CLIMB_DASH_L		= 0x0000000002000000;
+	const _ullong CLIMB_DASH_LU		= 0x0000000004000000;
+	const _ullong CLIMB_DASH_U		= 0x0000000008000000;
+	const _ullong CLIMB_DASH_RU		= 0x0000000010000000;
+	const _ullong CLIMB_DASH_R		= 0x0000000020000000;
+
+	const _ullong FLY_START			= 0x0000000040000000;
+	const _ullong FLY_NORMAL		= 0x0000000080000000;
+	const _ullong FLY_TURN_L		= 0x0000000100000000;
+	const _ullong FLY_TURN_R		= 0x0000000200000000;
+
+	const _ullong ATTACK_1			= 0x0000000400000000;
+	const _ullong ATTACK_2			= 0x0000000800000000;
+	const _ullong ATTACK_3			= 0x0000001000000000;
+	const _ullong ATTACK_4			= 0x0000002000000000;
+	const _ullong ATTACK_5			= 0x0000004000000000;
+
+	const _ullong ELEMENTAL_CLICK	= 0x0000008000000000;
+	const _ullong ELEMENTAL_CHARGE	= 0x0000010000000000;
+	const _ullong ELEMENTAL_BURST	= 0x0000020000000000;
+
+	const _ullong CLIMB_D			= 0x0000040000000000;
+
+	const _ullong HIT_H				= 0x0000080000000000;
+	const _ullong HIT_L				= 0x0000100000000000;
+	const _ullong HIT_THROW			= 0x0000200000000000;
+	const _ullong HIT_FALLTOGROUND	= 0x0000400000000000;
+
+
+#pragma region 움직임
+	const _ullong IS_MOVE			=	WALK | WALK_STOP |
+										RUN_START | RUN_CYCLE | RUN_STOP | RUN_DOWNHILL | RUN_TO_WALK |
+										SPRINT_START | SPRINT_CYCLE | SPRINT_STOP | SPRINT_TO_RUN |
+										JUMP | JUMP_FOR_WALK | JUMP_FOR_RUN | JUMP_FOR_SPRINT | JUMP_UPSTAIRS_H | JUMP_UPSTAIRS_L | JUMP_OFF_WALL |
+										FALL_TO_GROUND_L | FALL_TO_GROUND_H | FALL_TO_GROUND_BSH |
+										CLIMB_IDLE_D | CLIMB_L | CLIMB_U | CLIMB_R | CLIMB_D | CLIMB_DASH_L | CLIMB_DASH_LU | CLIMB_DASH_U | CLIMB_DASH_RU | CLIMB_DASH_R |
+										FLY_START | FLY_NORMAL | FLY_TURN_L | FLY_TURN_R;
+							
+	const _ullong IS_WALK			=	WALK | WALK_STOP;
+	const _ullong IS_RUN			=	RUN_START | RUN_CYCLE | RUN_STOP | RUN_DOWNHILL | RUN_TO_WALK;
+	const _ullong IS_SPRINT			=	SPRINT_START | SPRINT_CYCLE | SPRINT_STOP | SPRINT_TO_RUN;
+	const _ullong IS_JUMP			=	JUMP | JUMP_FOR_WALK | JUMP_FOR_RUN | JUMP_FOR_SPRINT | JUMP_UPSTAIRS_H | JUMP_UPSTAIRS_L | JUMP_OFF_WALL;
+	const _ullong IS_FLYING			=	FLY_START | FLY_NORMAL | FLY_TURN_L | FLY_TURN_R;
+	const _ullong IS_CLIMB			=	CLIMB_IDLE_D | CLIMB_L | CLIMB_U | CLIMB_R | CLIMB_D | CLIMB_DASH_L | CLIMB_DASH_LU | CLIMB_DASH_U | CLIMB_DASH_RU | CLIMB_DASH_R;
+	const _ullong IS_HIT			=	HIT_H | HIT_L | HIT_THROW | HIT_FALLTOGROUND;
+#pragma endregion 움직임
+
+#pragma region 공격 및 스킬
+	const _ullong IS_ATTACK			=	ATTACK_1 | ATTACK_2 | ATTACK_3 | ATTACK_4 | ATTACK_5 | 
+										ELEMENTAL_CLICK | ELEMENTAL_CHARGE | ELEMENTAL_BURST;
+
+	const _ullong IS_NORMALATTACK	=	ATTACK_1 | ATTACK_2 | ATTACK_3 | ATTACK_4 | ATTACK_5;
+	const _ullong IS_SKILL			=	ELEMENTAL_CLICK | ELEMENTAL_CHARGE | ELEMENTAL_BURST;
+#pragma endregion 공격 및 스킬
+};
+
+enum ANIM
+{
+	// ※ 플래그와 열거체 변수값은 동일하게 맞춰줘야 함 ※
+
+	STANDBY				= 0,
+
+	WALK				= 1,
+	WALK_STOP			= 2,
+
+	RUN_START			= 3,
+	RUN_CYCLE			= 4,
+	RUN_STOP			= 5,
+	RUN_DOWNHILL		= 6,
+	RUN_TO_WALK			= 7,
+	
+	SPRINT_START		= 8,
+	SPRINT_CYCLE		= 9,
+	SPRINT_STOP			= 10,
+	SPRINT_TO_RUN		= 11,
+	
+	JUMP				= 12,
+	JUMP_FOR_WALK		= 13,
+	JUMP_FOR_RUN		= 14,
+	JUMP_FOR_SPRINT		= 15,
+	JUMP_UPSTAIRS_H		= 16,
+	JUMP_UPSTAIRS_L		= 17,
+	JUMP_OFF_WALL		= 18,
+	
+	FALL_TO_GROUND_L	= 19,
+	FALL_TO_GROUND_H	= 20,
+	FALL_TO_GROUND_BSH	= 21,
+	
+	CLIMB_IDLE_D		= 22,
+	CLIMB_L				= 23,
+	CLIMB_U				= 24,
+	CLIMB_R				= 25,
+	
+	CLIMB_DASH_L		= 26,
+	CLIMB_DASH_LU		= 27,
+	CLIMB_DASH_U		= 28,
+	CLIMB_DASH_RU		= 29,
+	CLIMB_DASH_R		= 30,
+	
+	FLY_START			= 31,
+	FLY_NORMAL			= 32,
+	FLY_TURN_L			= 33,
+	FLY_TURN_R			= 34,
+	
+	ATTACK_1			= 35,
+	ATTACK_2			= 36,
+	ATTACK_3			= 37,
+	ATTACK_4			= 38,
+	ATTACK_5			= 39,
+	
+	ELEMENTAL_CLICK		= 40,
+	ELEMENTAL_CHARGE	= 41,
+	ELEMENTAL_BURST		= 42,
+	
+	CLIMB_D				= 43,
+
+	HIT_H				= 44,
+	HIT_L				= 45,
+	HIT_THROW			= 46,
+	HIT_FALLTOGROUND	= 47,
+
+	PLAYER_ANIMATION_END
+};

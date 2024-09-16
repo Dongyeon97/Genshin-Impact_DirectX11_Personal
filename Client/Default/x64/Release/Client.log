@@ -1,0 +1,240 @@
+﻿FXC : warning X4717: Effects deprecated for D3DCompiler_47
+  
+  compilation object save succeeded; see C:\Users\kids1\Desktop\쥬신\05. MyFramework_0214_Backup\3D_Portfolio_02.14_Backup\Client\Bin\Shader_Ambor_NormalAttack1.cso
+FXC : warning X4717: Effects deprecated for D3DCompiler_47
+  
+  compilation object save succeeded; see C:\Users\kids1\Desktop\쥬신\05. MyFramework_0214_Backup\3D_Portfolio_02.14_Backup\Client\Bin\Shader_Andrius_Attack_One.cso
+FXC : warning X4717: Effects deprecated for D3DCompiler_47
+  
+  compilation object save succeeded; see C:\Users\kids1\Desktop\쥬신\05. MyFramework_0214_Backup\3D_Portfolio_02.14_Backup\Client\Bin\Shader_Andrius_Attack_One_Particle.cso
+FXC : warning X4717: Effects deprecated for D3DCompiler_47
+  
+  compilation object save succeeded; see C:\Users\kids1\Desktop\쥬신\05. MyFramework_0214_Backup\3D_Portfolio_02.14_Backup\Client\Bin\Shader_Andrius_Attack_Three_Aura.cso
+FXC : warning X4717: Effects deprecated for D3DCompiler_47
+  
+  compilation object save succeeded; see C:\Users\kids1\Desktop\쥬신\05. MyFramework_0214_Backup\3D_Portfolio_02.14_Backup\Client\Bin\Shader_Andrius_Attack_Three_Debris.cso
+FXC : warning X4717: Effects deprecated for D3DCompiler_47
+  
+  compilation object save succeeded; see C:\Users\kids1\Desktop\쥬신\05. MyFramework_0214_Backup\3D_Portfolio_02.14_Backup\Client\Bin\Shader_Andrius_Attack_Three_IceField.cso
+FXC : warning X4717: Effects deprecated for D3DCompiler_47
+  
+  compilation object save succeeded; see C:\Users\kids1\Desktop\쥬신\05. MyFramework_0214_Backup\3D_Portfolio_02.14_Backup\Client\Bin\Shader_Andrius_Attack_Turn.cso
+FXC : warning X4717: Effects deprecated for D3DCompiler_47
+  
+  compilation object save succeeded; see C:\Users\kids1\Desktop\쥬신\05. MyFramework_0214_Backup\3D_Portfolio_02.14_Backup\Client\Bin\Shader_Andrius_PaizeChange.cso
+FXC : warning X4717: Effects deprecated for D3DCompiler_47
+  
+  compilation object save succeeded; see C:\Users\kids1\Desktop\쥬신\05. MyFramework_0214_Backup\3D_Portfolio_02.14_Backup\Client\Bin\Shader_Andrius_PaizeChange_Thunder.cso
+FXC : warning X4717: Effects deprecated for D3DCompiler_47
+  
+  compilation object save succeeded; see C:\Users\kids1\Desktop\쥬신\05. MyFramework_0214_Backup\3D_Portfolio_02.14_Backup\Client\Bin\Shader_Andrius_Pattern_Two_WindBlade.cso
+FXC : warning X4717: Effects deprecated for D3DCompiler_47
+  
+  compilation object save succeeded; see C:\Users\kids1\Desktop\쥬신\05. MyFramework_0214_Backup\3D_Portfolio_02.14_Backup\Client\Bin\Shader_Cell.cso
+FXC : warning X4717: Effects deprecated for D3DCompiler_47
+C:\Users\kids1\Desktop\���\05. MyFramework_0214_Backup\3D_Portfolio_02.14_Backup\Resources\Level_Static\ShaderFiles\Shader_Deferred.hlsl(356,104-108): warning X3556: integer modulus may be much slower, try using uints if possible.
+C:\Users\kids1\Desktop\���\05. MyFramework_0214_Backup\3D_Portfolio_02.14_Backup\Resources\Level_Static\ShaderFiles\Shader_Deferred.hlsl(356,128-132): warning X3556: integer divides may be much slower, try using uints if possible.
+  
+  compilation object save succeeded; see C:\Users\kids1\Desktop\쥬신\05. MyFramework_0214_Backup\3D_Portfolio_02.14_Backup\Client\Bin\Shader_Deferred.cso
+FXC : warning X4717: Effects deprecated for D3DCompiler_47
+  
+  compilation object save succeeded; see C:\Users\kids1\Desktop\쥬신\05. MyFramework_0214_Backup\3D_Portfolio_02.14_Backup\Client\Bin\Shader_Eula_NormalAttack1.cso
+FXC : warning X4717: Effects deprecated for D3DCompiler_47
+  
+  compilation object save succeeded; see C:\Users\kids1\Desktop\쥬신\05. MyFramework_0214_Backup\3D_Portfolio_02.14_Backup\Client\Bin\Shader_Eula_NormalAttack5.cso
+FXC : warning X4717: Effects deprecated for D3DCompiler_47
+  
+  compilation object save succeeded; see C:\Users\kids1\Desktop\쥬신\05. MyFramework_0214_Backup\3D_Portfolio_02.14_Backup\Client\Bin\Shader_Eula_Skill_E.cso
+FXC : warning X4717: Effects deprecated for D3DCompiler_47
+  
+  compilation object save succeeded; see C:\Users\kids1\Desktop\쥬신\05. MyFramework_0214_Backup\3D_Portfolio_02.14_Backup\Client\Bin\Shader_Eula_Skill_E_Particle.cso
+FXC : warning X4717: Effects deprecated for D3DCompiler_47
+  
+  compilation object save succeeded; see C:\Users\kids1\Desktop\쥬신\05. MyFramework_0214_Backup\3D_Portfolio_02.14_Backup\Client\Bin\Shader_Eula_Skill_Q.cso
+FXC : warning X4717: Effects deprecated for D3DCompiler_47
+  
+  compilation object save succeeded; see C:\Users\kids1\Desktop\쥬신\05. MyFramework_0214_Backup\3D_Portfolio_02.14_Backup\Client\Bin\Shader_MonsterKey.cso
+FXC : warning X4717: Effects deprecated for D3DCompiler_47
+  
+  compilation object save succeeded; see C:\Users\kids1\Desktop\쥬신\05. MyFramework_0214_Backup\3D_Portfolio_02.14_Backup\Client\Bin\Shader_Nahida_NormalAttack_Floor.cso
+FXC : warning X4717: Effects deprecated for D3DCompiler_47
+  
+  compilation object save succeeded; see C:\Users\kids1\Desktop\쥬신\05. MyFramework_0214_Backup\3D_Portfolio_02.14_Backup\Client\Bin\Shader_Nahida_NormalAttack_Flower.cso
+FXC : warning X4717: Effects deprecated for D3DCompiler_47
+  
+  compilation object save succeeded; see C:\Users\kids1\Desktop\쥬신\05. MyFramework_0214_Backup\3D_Portfolio_02.14_Backup\Client\Bin\Shader_Nahida_NormalAttack_Particle.cso
+FXC : warning X4717: Effects deprecated for D3DCompiler_47
+  
+  compilation object save succeeded; see C:\Users\kids1\Desktop\쥬신\05. MyFramework_0214_Backup\3D_Portfolio_02.14_Backup\Client\Bin\Shader_Nahida_Skill_E_Frame.cso
+FXC : warning X4717: Effects deprecated for D3DCompiler_47
+  
+  compilation object save succeeded; see C:\Users\kids1\Desktop\쥬신\05. MyFramework_0214_Backup\3D_Portfolio_02.14_Backup\Client\Bin\Shader_Nahida_Skill_E_RotateCard.cso
+FXC : warning X4717: Effects deprecated for D3DCompiler_47
+  
+  compilation object save succeeded; see C:\Users\kids1\Desktop\쥬신\05. MyFramework_0214_Backup\3D_Portfolio_02.14_Backup\Client\Bin\Shader_Nahida_Skill_Q.cso
+FXC : warning X4717: Effects deprecated for D3DCompiler_47
+  
+  compilation object save succeeded; see C:\Users\kids1\Desktop\쥬신\05. MyFramework_0214_Backup\3D_Portfolio_02.14_Backup\Client\Bin\Shader_Sprite.cso
+FXC : warning X4717: Effects deprecated for D3DCompiler_47
+  
+  compilation object save succeeded; see C:\Users\kids1\Desktop\쥬신\05. MyFramework_0214_Backup\3D_Portfolio_02.14_Backup\Client\Bin\Shader_Sprite_AlphaDecrease.cso
+FXC : warning X4717: Effects deprecated for D3DCompiler_47
+  
+  compilation object save succeeded; see C:\Users\kids1\Desktop\쥬신\05. MyFramework_0214_Backup\3D_Portfolio_02.14_Backup\Client\Bin\Shader_Sprite_BlackCut.cso
+FXC : warning X4717: Effects deprecated for D3DCompiler_47
+  
+  compilation object save succeeded; see C:\Users\kids1\Desktop\쥬신\05. MyFramework_0214_Backup\3D_Portfolio_02.14_Backup\Client\Bin\Shader_Sprite_ZeroAlphaCut.cso
+FXC : warning X4717: Effects deprecated for D3DCompiler_47
+  
+  compilation object save succeeded; see C:\Users\kids1\Desktop\쥬신\05. MyFramework_0214_Backup\3D_Portfolio_02.14_Backup\Client\Bin\Shader_UIBase.cso
+FXC : warning X4717: Effects deprecated for D3DCompiler_47
+  
+  compilation object save succeeded; see C:\Users\kids1\Desktop\쥬신\05. MyFramework_0214_Backup\3D_Portfolio_02.14_Backup\Client\Bin\Shader_UI_BossHPbar.cso
+FXC : warning X4717: Effects deprecated for D3DCompiler_47
+  
+  compilation object save succeeded; see C:\Users\kids1\Desktop\쥬신\05. MyFramework_0214_Backup\3D_Portfolio_02.14_Backup\Client\Bin\Shader_UI_BossHPbar_Frame.cso
+FXC : warning X4717: Effects deprecated for D3DCompiler_47
+  
+  compilation object save succeeded; see C:\Users\kids1\Desktop\쥬신\05. MyFramework_0214_Backup\3D_Portfolio_02.14_Backup\Client\Bin\Shader_UI_HPbar.cso
+FXC : warning X4717: Effects deprecated for D3DCompiler_47
+  
+  compilation object save succeeded; see C:\Users\kids1\Desktop\쥬신\05. MyFramework_0214_Backup\3D_Portfolio_02.14_Backup\Client\Bin\Shader_UI_HPbar_Frame.cso
+FXC : warning X4717: Effects deprecated for D3DCompiler_47
+  
+  compilation object save succeeded; see C:\Users\kids1\Desktop\쥬신\05. MyFramework_0214_Backup\3D_Portfolio_02.14_Backup\Client\Bin\Shader_UI_MonsterHPbar.cso
+FXC : warning X4717: Effects deprecated for D3DCompiler_47
+  
+  compilation object save succeeded; see C:\Users\kids1\Desktop\쥬신\05. MyFramework_0214_Backup\3D_Portfolio_02.14_Backup\Client\Bin\Shader_UI_MonsterHPbar_Frame.cso
+FXC : warning X4717: Effects deprecated for D3DCompiler_47
+  
+  compilation object save succeeded; see C:\Users\kids1\Desktop\쥬신\05. MyFramework_0214_Backup\3D_Portfolio_02.14_Backup\Client\Bin\Shader_UI_PortraitFrame.cso
+FXC : warning X4717: Effects deprecated for D3DCompiler_47
+  
+  compilation object save succeeded; see C:\Users\kids1\Desktop\쥬신\05. MyFramework_0214_Backup\3D_Portfolio_02.14_Backup\Client\Bin\Shader_UI_SkillIcon.cso
+FXC : warning X4717: Effects deprecated for D3DCompiler_47
+  
+  compilation object save succeeded; see C:\Users\kids1\Desktop\쥬신\05. MyFramework_0214_Backup\3D_Portfolio_02.14_Backup\Client\Bin\Shader_UI_SkillIconFrame.cso
+FXC : warning X4717: Effects deprecated for D3DCompiler_47
+  
+  compilation object save succeeded; see C:\Users\kids1\Desktop\쥬신\05. MyFramework_0214_Backup\3D_Portfolio_02.14_Backup\Client\Bin\Shader_VtxAnimMesh.cso
+  compilation object save succeeded; see C:\Users\kids1\Desktop\쥬신\05. MyFramework_0214_Backup\3D_Portfolio_02.14_Backup\Client\Bin\Shader_VtxCube.cso
+FXC : warning X4717: Effects deprecated for D3DCompiler_47
+  
+  compilation object save succeeded; see C:\Users\kids1\Desktop\쥬신\05. MyFramework_0214_Backup\3D_Portfolio_02.14_Backup\Client\Bin\Shader_VtxEffectMesh.cso
+FXC : warning X4717: Effects deprecated for D3DCompiler_47
+  
+  compilation object save succeeded; see C:\Users\kids1\Desktop\쥬신\05. MyFramework_0214_Backup\3D_Portfolio_02.14_Backup\Client\Bin\Shader_VtxMesh.cso
+FXC : warning X4717: Effects deprecated for D3DCompiler_47
+  
+  compilation object save succeeded; see C:\Users\kids1\Desktop\쥬신\05. MyFramework_0214_Backup\3D_Portfolio_02.14_Backup\Client\Bin\Shader_VtxNorTex.cso
+FXC : warning X4717: Effects deprecated for D3DCompiler_47
+  
+  compilation object save succeeded; see C:\Users\kids1\Desktop\쥬신\05. MyFramework_0214_Backup\3D_Portfolio_02.14_Backup\Client\Bin\Shader_VtxPointInstance.cso
+FXC : warning X4717: Effects deprecated for D3DCompiler_47
+  
+  compilation object save succeeded; see C:\Users\kids1\Desktop\쥬신\05. MyFramework_0214_Backup\3D_Portfolio_02.14_Backup\Client\Bin\Shader_VtxPointInstance_NoTime.cso
+FXC : warning X4717: Effects deprecated for D3DCompiler_47
+  
+  compilation object save succeeded; see C:\Users\kids1\Desktop\쥬신\05. MyFramework_0214_Backup\3D_Portfolio_02.14_Backup\Client\Bin\Shader_VtxPosTex.cso
+FXC : warning X4717: Effects deprecated for D3DCompiler_47
+  
+  compilation object save succeeded; see C:\Users\kids1\Desktop\쥬신\05. MyFramework_0214_Backup\3D_Portfolio_02.14_Backup\Client\Bin\Shader_VtxRectInstance.cso
+FXC : warning X4717: Effects deprecated for D3DCompiler_47
+  
+  compilation object save succeeded; see C:\Users\kids1\Desktop\쥬신\05. MyFramework_0214_Backup\3D_Portfolio_02.14_Backup\Client\Bin\Shader_Zhongli_Jusin.cso
+FXC : warning X4717: Effects deprecated for D3DCompiler_47
+  
+  compilation object save succeeded; see C:\Users\kids1\Desktop\쥬신\05. MyFramework_0214_Backup\3D_Portfolio_02.14_Backup\Client\Bin\Shader_Zhongli_Shield.cso
+FXC : warning X4717: Effects deprecated for D3DCompiler_47
+  
+  compilation object save succeeded; see C:\Users\kids1\Desktop\쥬신\05. MyFramework_0214_Backup\3D_Portfolio_02.14_Backup\Client\Bin\Shader_Zhongli_Shield_Cylinder.cso
+  pch.cpp
+  Ambor_StateMachine.cpp
+  Amos.cpp
+  AndreusStateMachine.cpp
+  ArrowRain_Floor.cpp
+  BackGround.cpp
+  BackGround_Loading1.cpp
+  BackGround_Loading2.cpp
+  BackGround_Loading3.cpp
+  BossMonster.cpp
+  Boss_Andreus.cpp
+  CaptureEffect.cpp
+  Catalyst.cpp
+  ClientLevel.cpp
+  DamageFont.cpp
+  Defender.cpp
+  DefenderStateMachine.cpp
+  DungeonExit.cpp
+  DungeonExitUI.cpp
+  ElementalReaction.cpp
+  Hili_Club.cpp
+  컴파일하고 있습니다...
+  Hili_CrossBow.cpp
+  Hili_Fire.cpp
+  Hili_Fire_StateMachine.cpp
+  Hili_Ice.cpp
+  Hili_Ice_StateMachine.cpp
+  HPbar.cpp
+  HPbar_Frame.cpp
+  IngameUI.cpp
+  Jusin.cpp
+  Kunwu.cpp
+  Logo_LoadingText.cpp
+  Logo_LoadingText2.cpp
+  MonsterHPbar.cpp
+  MonsterHPbar_Frame.cpp
+  MonsterKeyUI.cpp
+  MonsterKey_1.cpp
+  MonsterKey_2.cpp
+  MonsterKey_3.cpp
+  MonsterKey_4.cpp
+  Nahida_StateMachine.cpp
+  컴파일하고 있습니다...
+  NormalMonster.cpp
+  ParticleActor_Point.cpp
+  PlayerStateMachine.cpp
+  Player_Ambor.cpp
+  Player_Eula.cpp
+  Player_Nahida.cpp
+  Player_Zhongli.cpp
+  Seal.cpp
+  Shield.cpp
+  SidePortrait.cpp
+  SkillIcon.cpp
+  Skybox2.cpp
+  Stage3_Navi.cpp
+  Skybox.cpp
+  Slime_Fire_StateMachine.cpp
+  Slime_Ice.cpp
+  Slime_Fire.cpp
+  Slime_Ice_StateMachine.cpp
+  Level_Loading.cpp
+  Level_Logo.cpp
+  컴파일하고 있습니다...
+  Level_Stage1.cpp
+  Level_Stage2.cpp
+  Level_Stage3.cpp
+  Loader.cpp
+  MainApp.cpp
+  Monster.cpp
+  MonsterStateMachine.cpp
+  ParticleActor_Rect.cpp
+  Player.cpp
+  Eula_StateMachine.cpp
+  Stage1_Navi.cpp
+  Songlue.cpp
+  Stage2_Navi.cpp
+  UIActor_Base.cpp
+  UserInstance.cpp
+  Weapon.cpp
+  Zhongli_StateMachine.cpp
+  Client.cpp
+  코드를 생성하고 있습니다.
+  Previous IPDB not found, fall back to full compilation.
+C:\Users\kids1\Desktop\쥬신\05. MyFramework_0214_Backup\3D_Portfolio_02.14_Backup\Client\Private\MonsterStateMachine.cpp(439): warning C4715: 'CMonsterStateMachine::CalculateElementalReaction': 모든 제어 경로에서 값을 반환하지는 않습니다.
+  All 5820 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  코드를 생성했습니다.
+  Client.vcxproj -> C:\Users\kids1\Desktop\쥬신\05. MyFramework_0214_Backup\3D_Portfolio_02.14_Backup\Client\Bin\Client.exe
+  'pwsh.exe'은(는) 내부 또는 외부 명령, 실행할 수 있는 프로그램, 또는
+  배치 파일이 아닙니다.
