@@ -485,8 +485,6 @@ ID3D11ShaderResourceView* CResourceManager::FindDiffuseFromStatic(const wstring&
 	{
 		if (pair.first == _wstrFileName)
 			return pair.second;
-
-		break;
 	}
 
 	return nullptr;
@@ -498,8 +496,6 @@ ID3D11ShaderResourceView* CResourceManager::FindDiffuse(const wstring& _wstrFile
 	{
 		if (pair.first == _wstrFileName)
 			return pair.second;
-
-		break;
 	}
 	return nullptr;
 }
